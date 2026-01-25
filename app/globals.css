@@ -1,0 +1,68 @@
+:root {
+  --bg: #050607;
+  --bg-elev: #0b0f12;
+  --bg-soft: #10161a;
+  --text: #e5f2ec;
+  --muted: #a2b4ad;
+  --neon: #25ff88;
+  --neon-strong: #7dffb0;
+  --neon-soft: rgba(37, 255, 136, 0.15);
+  --border: rgba(37, 255, 136, 0.25);
+  --shadow: 0 16px 40px rgba(0, 0, 0, 0.55);
+  --radius-lg: 24px;
+  --radius-md: 16px;
+  --radius-sm: 12px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+body {
+  color: var(--text);
+  background: var(--bg);
+  font-family: var(--font-body), sans-serif;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+main {
+  display: block;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+::selection {
+  background: var(--neon);
+  color: #06100a;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
