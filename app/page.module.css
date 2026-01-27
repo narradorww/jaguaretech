@@ -542,13 +542,8 @@
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
-  .cta {
-    grid-template-columns: minmax(0, 1.2fr) minmax(0, 0.8fr);
-    align-items: center;
-  }
-
-  .ctaActions {
-    align-items: flex-end;
+  .process {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
   .footerRow {

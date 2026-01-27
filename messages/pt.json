@@ -1,0 +1,104 @@
+{
+  "Home": {
+    "nav": {
+      "services": "Serviços",
+      "process": "Processo",
+      "stack": "Stack",
+      "contact": "Contato",
+      "letsTalk": "Vamos conversar"
+    },
+    "hero": {
+      "eyebrow": "Estúdio de software",
+      "title": "Mobile e inteligência artificial para produtos que lideram.",
+      "badge": "Jaguaretech Lab",
+      "lede": "A Jaguaretech transforma visões em apps e plataformas inteligentes. Construímos experiências mobile-first e sistemas de IA que aceleram negócios, automatizam decisões e encantam usuários.",
+      "primaryCta": "Iniciar projeto",
+      "secondaryCta": "Ver especialidades",
+      "meta": {
+        "mobileFirst": {
+          "title": "Mobile first",
+          "text": "Apps nativos e multiplataforma com UX precisa."
+        },
+        "aiApplied": {
+          "title": "IA aplicada",
+          "text": "Modelos generativos, visão computacional e automação."
+        },
+        "endToEnd": {
+          "title": "Entrega ponta a ponta",
+          "text": "Do discovery ao deploy contínuo com time sênior."
+        }
+      }
+    },
+    "services": {
+      "eyebrow": "Especialidades",
+      "title": "Soluções digitais com identidade futurista.",
+      "text": "Somos especialistas em mobile e inteligência artificial. Unimos engenharia, design e dados para construir produtos sob medida que crescem com o seu negócio.",
+      "mobile": {
+        "title": "Apps Mobile",
+        "text": "Experiências fluidas para iOS, Android e multiplataforma.",
+        "list": [
+          "React Native, Flutter e Swift/Kotlin",
+          "Arquitetura offline-first e push inteligente",
+          "Design system e performance de alto nível"
+        ]
+      },
+      "ai": {
+        "title": "Sistemas de IA",
+        "text": "Inteligência aplicada para automatizar e prever resultados.",
+        "list": [
+          "LLMs, agentes e copilotos de negócio",
+          "Visão computacional e recomendação",
+          "MLOps, governança e monitoramento"
+        ]
+      },
+      "web": {
+        "title": "Plataformas Web",
+        "text": "Front-ends performáticos e APIs seguras para escalar.",
+        "list": [
+          "Next.js, dashboards e portais de dados",
+          "APIs, integrações e automação de processos",
+          "Observabilidade e deploy contínuo"
+        ]
+      }
+    },
+    "process": {
+      "eyebrow": "Método",
+      "title": "Um processo claro para projetos ambiciosos.",
+      "text": "Trabalhamos com ciclos curtos e visibilidade total. Da estratégia ao produto final, você acompanha cada entrega.",
+      "steps": {
+        "discovery": {
+          "title": "Discovery profundo",
+          "text": "Mapeamos jornada, dados e objetivos para guiar o produto."
+        },
+        "prototype": {
+          "title": "Protótipo e arquitetura",
+          "text": "Definimos fluxos, stack e modelos de IA com segurança."
+        },
+        "build": {
+          "title": "Build acelerado",
+          "text": "Sprints com entregas semanais e feedback constante."
+        },
+        "scale": {
+          "title": "Escala e evolução",
+          "text": "Monitoramento, evoluções e IA treinada com dados reais."
+        }
+      }
+    },
+    "stack": {
+      "eyebrow": "Stack",
+      "title": "Tecnologia moderna para resultados consistentes.",
+      "text": "Selecionamos as melhores ferramentas para cada desafio, com foco em confiabilidade e velocidade de entrega."
+    },
+    "contact": {
+      "eyebrow": "Contato",
+      "title": "Pronto para criar algo inesquecível?",
+      "text": "Conte sua ideia e vamos desenhar um caminho rápido para validar, construir e escalar.",
+      "cta": "contato@jaguaretch.com.br",
+      "backToTop": "Voltar ao topo"
+    },
+    "footer": {
+      "tagline": "Desenvolvimento mobile e inteligência artificial.",
+      "location": "Brasil - remoto"
+    }
+  }
+}

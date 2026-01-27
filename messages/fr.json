@@ -1,0 +1,104 @@
+{
+  "Home": {
+    "nav": {
+      "services": "Services",
+      "process": "Processus",
+      "stack": "Stack",
+      "contact": "Contact",
+      "letsTalk": "Parlons-nous"
+    },
+    "hero": {
+      "eyebrow": "Studio Logiciel",
+      "title": "Mobile et intelligence artificielle pour des produits vivants.",
+      "badge": "Jaguaretech Lab",
+      "lede": "Jaguaretech transforme des visions en applications et plateformes intelligentes. Nous construisons des expériences mobile-first et des systèmes d'IA qui accélèrent les affaires, automatisent les décisions et enchantent les utilisateurs.",
+      "primaryCta": "Démarrer un projet",
+      "secondaryCta": "Voir expertises",
+      "meta": {
+        "mobileFirst": {
+          "title": "Mobile first",
+          "text": "Apps natives et multiplateformes avec une UX précise."
+        },
+        "aiApplied": {
+          "title": "IA appliquée",
+          "text": "Modèles génératifs, vision par ordinateur et automatisation."
+        },
+        "endToEnd": {
+          "title": "Livraison de bout en bout",
+          "text": "Du discovery au déploiement continu avec une équipe senior."
+        }
+      }
+    },
+    "services": {
+      "eyebrow": "Spécialités",
+      "title": "Solutions numériques avec une identité futuriste.",
+      "text": "Nous sommes spécialistes en mobile et intelligence artificielle. Nous unissons ingénierie, design et données pour construire des produits sur mesure qui grandissent avec votre entreprise.",
+      "mobile": {
+        "title": "Apps Mobiles",
+        "text": "Expériences fluides pour iOS, Android et multiplateforme.",
+        "list": [
+          "React Native, Flutter et Swift/Kotlin",
+          "Architecture offline-first et push intelligent",
+          "Design system et performance de haut niveau"
+        ]
+      },
+      "ai": {
+        "title": "Systèmes d'IA",
+        "text": "Intelligence appliquée pour automatiser et prédire les résultats.",
+        "list": [
+          "LLMs, agents et copilotes d'affaires",
+          "Vision par ordinateur et recommandation",
+          "MLOps, gouvernance et surveillance"
+        ]
+      },
+      "web": {
+        "title": "Plateformes Web",
+        "text": "Front-ends performants et APIs sécurisées pour escaler.",
+        "list": [
+          "Next.js, tableaux de bord et portails de données",
+          "APIs, intégrations et automatisation de processus",
+          "Observabilité et déploiement continu"
+        ]
+      }
+    },
+    "process": {
+      "eyebrow": "Méthode",
+      "title": "Un processus clair pour des projets ambitieux.",
+      "text": "Nous travaillons avec des cycles courts et une visibilité totale. De la stratégie au produit final, vous suivez chaque livraison.",
+      "steps": {
+        "discovery": {
+          "title": "Discovery profond",
+          "text": "Nous cartographions le parcours, les données et les objectifs pour guider le produit."
+        },
+        "prototype": {
+          "title": "Prototype et architecture",
+          "text": "Nous définissons les flux, la stack et les modèles d'IA avec sécurité."
+        },
+        "build": {
+          "title": "Build accéléré",
+          "text": "Sprints avec livraisons hebdomadaires et feedback constant."
+        },
+        "scale": {
+          "title": "Échelle et évolution",
+          "text": "Surveillance, évolutions et IA entraînée avec des données réelles."
+        }
+      }
+    },
+    "stack": {
+      "eyebrow": "Stack",
+      "title": "Technologie moderne pour des résultats cohérents.",
+      "text": "Nous sélectionnons les meilleurs outils pour chaque défi, en nous concentrant sur la fiabilité et la vitesse de livraison."
+    },
+    "contact": {
+      "eyebrow": "Contact",
+      "title": "Prêt à créer quelque chose d'inoubliable ?",
+      "text": "Racontez votre idée et nous dessinerons un chemin rapide pour valider, construire et escaler.",
+      "cta": "contato@jaguaretch.com.br",
+      "backToTop": "Retour en haut"
+    },
+    "footer": {
+      "tagline": "Développement mobile et intelligence artificielle.",
+      "location": "Brésil - télétravail"
+    }
+  }
+}

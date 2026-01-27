@@ -1,0 +1,104 @@
+{
+  "Home": {
+    "nav": {
+      "services": "Services",
+      "process": "Process",
+      "stack": "Stack",
+      "contact": "Contact",
+      "letsTalk": "Let's talk"
+    },
+    "hero": {
+      "eyebrow": "Software Studio",
+      "title": "Mobile and Artificial Intelligence for living products.",
+      "badge": "Jaguaretech Lab",
+      "lede": "Jaguaretech transforms visions into intelligent apps and platforms. We build mobile-first experiences and AI systems that accelerate business, automate decisions, and delight users.",
+      "primaryCta": "Start project",
+      "secondaryCta": "See expertise",
+      "meta": {
+        "mobileFirst": {
+          "title": "Mobile first",
+          "text": "Native and cross-platform apps with precise UX."
+        },
+        "aiApplied": {
+          "title": "Applied AI",
+          "text": "Generative models, computer vision, and automation."
+        },
+        "endToEnd": {
+          "title": "End-to-end delivery",
+          "text": "From discovery to continuous deploy with a senior team."
+        }
+      }
+    },
+    "services": {
+      "eyebrow": "Expertise",
+      "title": "Digital solutions with a futuristic identity.",
+      "text": "We are specialists in mobile and artificial intelligence. We unite engineering, design, and data to build custom products that grow with your business.",
+      "mobile": {
+        "title": "Mobile Apps",
+        "text": "Fluid experiences for iOS, Android, and cross-platform.",
+        "list": [
+          "React Native, Flutter, and Swift/Kotlin",
+          "Offline-first architecture and smart push",
+          "Design system and high-level performance"
+        ]
+      },
+      "ai": {
+        "title": "AI Systems",
+        "text": "Intelligence applied to automate and predict results.",
+        "list": [
+          "LLMs, agents, and business copilots",
+          "Computer vision and recommendation",
+          "MLOps, governance, and monitoring"
+        ]
+      },
+      "web": {
+        "title": "Web Platforms",
+        "text": "Performant front-ends and secure APIs to scale.",
+        "list": [
+          "Next.js, dashboards, and data portals",
+          "APIs, integrations, and process automation",
+          "Observability and continuous deploy"
+        ]
+      }
+    },
+    "process": {
+      "eyebrow": "Method",
+      "title": "A clear process for ambitious projects.",
+      "text": "We work with short cycles and total visibility. From strategy to final product, you track every delivery.",
+      "steps": {
+        "discovery": {
+          "title": "Deep Discovery",
+          "text": "We map journey, data, and goals to guide the product."
+        },
+        "prototype": {
+          "title": "Prototype & Architecture",
+          "text": "We define flows, stack, and AI models with security."
+        },
+        "build": {
+          "title": "Accelerated Build",
+          "text": "Sprints with weekly deliveries and constant feedback."
+        },
+        "scale": {
+          "title": "Scale & Evolution",
+          "text": "Monitoring, evolutions, and AI trained with real data."
+        }
+      }
+    },
+    "stack": {
+      "eyebrow": "Stack",
+      "title": "Modern technology for consistent results.",
+      "text": "We select the best tools for each challenge, focusing on reliability and delivery speed."
+    },
+    "contact": {
+      "eyebrow": "Contact",
+      "title": "Ready to create something unforgettable?",
+      "text": "Tell us your idea and let's design a fast path to validate, build, and scale.",
+      "cta": "contato@jaguaretch.com.br",
+      "backToTop": "Back to top"
+    },
+    "footer": {
+      "tagline": "Mobile development and artificial intelligence.",
+      "location": "Brazil - remote"
+    }
+  }
+}

@@ -1,5 +1,7 @@
+import { NextIntlClientProvider } from "next-intl";
+import { getMessages } from "next-intl/server";
 import { Oxanium, Space_Grotesk } from "next/font/google";
-import "./globals.css";
+import "../globals.css";
 
 const oxanium = Oxanium({
   variable: "--font-display",
@@ -44,14 +46,25 @@ export const metadata = {
   },
   alternates: {
     canonical: "https://jaguaretech.com.br",
+    languages: {
+      'pt': '/pt',
+      'en': '/en',
+      'es': '/es',
+      'fr': '/fr',
+    },
   },
 };
 
-export default function RootLayout({ children }) {
+export default async function RootLayout({ children, params }) {
+  const { locale } = await params;
+  const messages = await getMessages();
+
   return (
-    <html lang="pt-BR">
+    <html lang={locale}>
       <body className={`${spaceGrotesk.variable} ${oxanium.variable}`}>
-        {children}
+        <NextIntlClientProvider messages={messages}>
+          {children}
+        </NextIntlClientProvider>
       </body>
     </html>
   );
