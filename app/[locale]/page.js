@@ -1,5 +1,6 @@
 import LanguageSwitcher from "../components/LanguageSwitcher";
 import { setRequestLocale, getTranslations } from "next-intl/server";
+import styles from "../page.module.css";
 
 export default async function Home({ params }) {
   const { locale } = await params;
