@@ -1,5 +1,5 @@
 import { NextIntlClientProvider } from "next-intl";
-import { getMessages } from "next-intl/server";
+import { getMessages, setRequestLocale } from "next-intl/server";
 import { Oxanium, Space_Grotesk } from "next/font/google";
 import "../globals.css";
 
@@ -57,6 +57,7 @@ export const metadata = {
 
 export default async function RootLayout({ children, params }) {
   const { locale } = await params;
+  setRequestLocale(locale);
   const messages = await getMessages();
 
   return (
