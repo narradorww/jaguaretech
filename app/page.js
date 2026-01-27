@@ -1,8 +1,35 @@
 import styles from "./page.module.css";
 
 export default function Home() {
+const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    name: "Jaguaretech",
+    url: "https://jaguaretech.com.br",
+    logo: "https://jaguaretech.com.br/hero-jaguaretch.png",
+    description:
+      "Estúdio de software especializado em desenvolvimento mobile e inteligência artificial.",
+    address: {
+      "@type": "PostalAddress",
+      addressCountry: "BR",
+    },
+    contactPoint: {
+      "@type": "ContactPoint",
+      email: "contato@jaguaretch.com.br",
+      contactType: "customer service",
+    },
+    sameAs: [
+      "https://www.linkedin.com/company/jaguaretech",
+      "https://twitter.com/jaguaretech",
+    ],
+  };
+
   return (
     <div className={styles.page}>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       <header className={styles.header}>
         <a className={styles.brand} href="#home">
           <span className={styles.brandMark} aria-hidden="true" />
@@ -81,7 +108,12 @@ export default function Home() {
           </div>
         </section>
 
-        <section className={styles.section} id="servicos">
+        <section
+          className={styles.section}
+          id="servicos"
+          itemScope
+          itemType="https://schema.org/Service"
+        >
           <div className={styles.sectionHeader}>
             <p className={styles.sectionEyebrow}>Especialidades</p>
             <h2 className={styles.sectionTitle}>

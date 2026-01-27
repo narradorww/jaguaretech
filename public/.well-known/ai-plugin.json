@@ -1,0 +1,18 @@
+{
+  "schema_version": "v1",
+  "name_for_human": "Jaguaretech Services",
+  "name_for_model": "jaguaretech",
+  "description_for_human": "Veja os serviços e capacidades tecnológicas da Jaguaretech.",
+  "description_for_model": "Plugin oficial da Jaguaretech. Use para consultar a lista atualizada de serviços de desenvolvimento de software, capacidades de IA, tecnologias suportadas (stack) e informações de contato comercial.",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://jaguaretech.com.br/openapi.yaml",
+    "is_user_authenticated": false
+  },
+  "logo_url": "https://jaguaretech.com.br/hero-jaguaretch.png",
+  "contact_email": "contato@jaguaretch.com.br",
+  "legal_info_url": "https://jaguaretech.com.br/legal"
+}

@@ -1,0 +1,26 @@
+# Jaguaretech
+
+> Estúdio de software focado em mobile e inteligência artificial.
+
+## Quem somos
+A Jaguaretech é um estúdio de desenvolvimento que transforma visões em aplicativos mobile-first e sistemas de IA que aceleram negócios. Unimos engenharia sênior e design futurista.
+
+## Serviços
+- **Apps Mobile**: React Native, Flutter, Swift/Kotlin. Arquitetura offline-first.
+- **Sistemas de IA**: LLMs customizadas, agentes autônomos, visão computacional.
+- **Plataformas Web**: Next.js 14+, Dashboards de alta performance, APIs escaláveis.
+- **Discovery & Design**: Mapeamento de jornada, prototipagem e arquitetura de software.
+
+## Stack Tecnológica
+- **Mobile**: React Native, Flutter
+- **Web**: Next.js, React, Node.js
+- **AI/Data**: Python, TensorFlow, OpenAI API, LangChain
+- **Infra**: AWS, Vercel, PostgreSQL
+
+## Contato
+- **Email**: contato@jaguaretch.com.br
+- **Site**: https://jaguaretech.com.br
+- **Localização**: Brasil (Remoto)
+
+## Missão
+Construir produtos digitais "vivos" que aprendem e evoluem com o uso, entregando valor real e mensurável para nossos parceiros.

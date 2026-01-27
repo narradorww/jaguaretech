@@ -1,0 +1,36 @@
+openapi: 3.0.1
+info:
+  title: Jaguaretech Services API
+  description: API pública para consultar capacidades e serviços da Jaguaretech.
+  version: "v1"
+servers:
+  - url: https://jaguaretech.com.br
+paths:
+  /api/services:
+    get:
+      operationId: getServices
+      summary: Lista todos os serviços e tecnologias
+      description: Retorna uma lista estruturada das capacidades técnicas, stack e status de disponibilidade da Jaguaretech.
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  company:
+                    type: string
+                  capabilities:
+                    type: array
+                    items:
+                      type: object
+                      properties:
+                        category:
+                          type: string
+                        technologies:
+                          type: array
+                          items:
+                            type: string
+                        description:
+                          type: string
