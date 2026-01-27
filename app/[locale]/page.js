@@ -8,6 +8,28 @@ export default async function Home({ params }) {
   const t = await getTranslations("Home");
 // ... imports and component setup
 
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    name: "Jaguaretech",
+    url: "https://jaguaretech.com.br",
+    logo: "https://jaguaretech.com.br/hero-jaguaretch.png",
+    description: t("hero.lede"),
+    address: {
+      "@type": "PostalAddress",
+      addressCountry: "BR",
+    },
+    contactPoint: {
+      "@type": "ContactPoint",
+      email: "contato@jaguaretch.com.br",
+      contactType: "customer service",
+    },
+    sameAs: [
+      "https://www.linkedin.com/company/jaguaretech",
+      "https://twitter.com/jaguaretech",
+    ],
+  };
+
   return (
     <div className={styles.page}>
       <script
