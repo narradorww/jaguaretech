@@ -24,6 +24,74 @@
 
 export const portfolioProjects = [
   {
+    slug: "vibe-app-beneficios",
+    sector: {
+      pt: "Benefícios & Fidelidade",
+      en: "Benefits & Loyalty",
+      es: "Beneficios y Fidelidad",
+      fr: "Avantages & Fidélité",
+    },
+    tags: ["mobile", "staff-augmentation"],
+    services: ["mobile", "staff-augmentation"],
+    title: {
+      pt: "App mobile de benefícios e cashback para 250+ marcas",
+      en: "Mobile benefits and cashback app for 250+ brands",
+      es: "App mobile de beneficios y cashback para 250+ marcas",
+      fr: "Application mobile d'avantages et cashback pour 250+ marques",
+    },
+    description: {
+      pt: "O Créditos Vibe é uma plataforma gratuita que permite acumular créditos a partir de compras e ações do dia a dia, trocando por vantagens em mais de 250 marcas. Atuamos como consultoria mobile sênior no desenvolvimento e evolução do app.",
+      en: "Créditos Vibe is a free platform that lets users accumulate credits from everyday purchases and actions, redeemable across 250+ brand partners. We served as senior mobile consultants in the app's development and evolution.",
+      es: "Créditos Vibe es una plataforma gratuita que permite acumular créditos a partir de compras y acciones del día a día, canjeables en más de 250 marcas. Actuamos como consultores mobile senior en el desarrollo y evolución del app.",
+      fr: "Créditos Vibe est une plateforme gratuite permettant d'accumuler des crédits à partir d'achats et d'actions quotidiennes, échangeables auprès de plus de 250 marques partenaires. Nous avons agi en tant que consultants mobile senior dans le développement et l'évolution de l'application.",
+    },
+    challenge: {
+      pt: "Construir e evoluir um super app de benefícios que precisava conectar consumidores a um ecossistema amplo de marcas parceiras, com mecânicas de gamificação (acúmulo de créditos, sorteios mensais de R$ 10 mil) e uma experiência mobile fluida para o público brasileiro em toda a sua diversidade.",
+      en: "Build and evolve a benefits super app that needed to connect consumers to a broad ecosystem of brand partners, with gamification mechanics (credit accumulation, monthly R$10K sweepstakes), and a fluid mobile experience for the diverse Brazilian consumer base.",
+      es: "Construir y evolucionar un super app de beneficios que necesitaba conectar consumidores a un amplio ecosistema de marcas asociadas, con mecánicas de gamificación (acumulación de créditos, sorteos mensuales de R$ 10.000) y una experiencia mobile fluida.",
+      fr: "Construire et faire évoluer une super application d'avantages devant connecter les consommateurs à un large écosystème de marques partenaires, avec des mécaniques de gamification (accumulation de crédits, tirages mensuels de R$ 10 000) et une expérience mobile fluide.",
+    },
+    solution: {
+      pt: "Atuamos como consultores mobile sênior, contribuindo com arquitetura, performance e evolução de features do app. O produto cobre desde o fluxo de acúmulo de créditos por ações cotidianas até a troca por benefícios em categorias como transporte, alimentação, lazer e muito mais.",
+      en: "We served as senior mobile consultants, contributing to architecture, performance, and feature evolution of the app. The product covers everything from credit accumulation through daily actions to redemption across categories like transportation, food, entertainment, and more.",
+      es: "Actuamos como consultores mobile senior, contribuyendo con arquitectura, rendimiento y evolución de features del app. El producto cubre desde el flujo de acumulación de créditos por acciones cotidianas hasta el canje en categorías como transporte, alimentación y ocio.",
+      fr: "Nous avons agi en tant que consultants mobile senior, contribuant à l'architecture, la performance et l'évolution des fonctionnalités de l'application. Le produit couvre tout, de l'accumulation de crédits via des actions quotidiennes à l'échange dans des catégories comme le transport, la restauration et le divertissement.",
+    },
+    results: [
+      {
+        pt: "Plataforma ativa com 250+ marcas parceiras integradas.",
+        en: "Active platform with 250+ integrated brand partners.",
+        es: "Plataforma activa con 250+ marcas asociadas integradas.",
+        fr: "Plateforme active avec plus de 250 marques partenaires intégrées.",
+      },
+      {
+        pt: "Mecânica de sorteios mensais de R$ 10 mil implementada no app.",
+        en: "Monthly R$10K sweepstakes mechanic implemented in the app.",
+        es: "Mecánica de sorteos mensuales de R$ 10.000 implementada en el app.",
+        fr: "Mécanique de tirages mensuels de R$ 10 000 implémentée dans l'application.",
+      },
+      {
+        pt: "Experiência mobile para o consumidor brasileiro em múltiplas categorias de uso.",
+        en: "Mobile experience for the Brazilian consumer across multiple usage categories.",
+        es: "Experiencia mobile para el consumidor brasileño en múltiples categorías de uso.",
+        fr: "Expérience mobile pour le consommateur brésilien dans de multiples catégories d'utilisation.",
+      },
+    ],
+    stack: ["React Native", "Node.js", "AWS"],
+    metaTitle: {
+      pt: "Créditos Vibe — App mobile de benefícios e cashback | Jaguaretech",
+      en: "Créditos Vibe — Mobile benefits and cashback app | Jaguaretech",
+      es: "Créditos Vibe — App mobile de beneficios y cashback | Jaguaretech",
+      fr: "Créditos Vibe — Application mobile d'avantages et cashback | Jaguaretech",
+    },
+    metaDescription: {
+      pt: "Como a Jaguaretech atuou como consultoria mobile sênior no Créditos Vibe, plataforma de benefícios com 250+ marcas parceiras.",
+      en: "How Jaguaretech served as senior mobile consultants on Créditos Vibe, a benefits platform with 250+ brand partners.",
+      es: "Cómo Jaguaretech actuó como consultoría mobile senior en Créditos Vibe, plataforma de beneficios con 250+ marcas asociadas.",
+      fr: "Comment Jaguaretech a agi comme consultant mobile senior sur Créditos Vibe, une plateforme d'avantages avec plus de 250 marques partenaires.",
+    },
+  },
+  {
     slug: "moveintech-copiloto-logistico",
     sector: {
       pt: "Logística B2B",
