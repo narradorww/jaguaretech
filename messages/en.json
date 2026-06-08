@@ -4,14 +4,20 @@
       "services": "Services",
       "process": "Process",
       "stack": "Stack",
+      "insights": "Insights",
+      "caseStudies": "Case studies",
+      "blog": "Blog",
       "contact": "Contact",
       "letsTalk": "Let's talk"
+    },
+    "a11y": {
+      "skipToContent": "Skip to main content"
     },
     "hero": {
       "eyebrow": "Software Studio",
       "title": "Mobile and Artificial Intelligence for living products.",
       "badge": "Jaguaretech Lab",
-      "lede": "Jaguaretech transforms visions into intelligent apps and platforms. We build mobile-first experiences and AI systems that accelerate business, automate decisions, and delight users.",
+      "lede": "Jaguaretech is a software development company that transforms visions into intelligent apps and platforms. We deliver AI software development, mobile-first experiences, and staff augmentation services that accelerate business, automate decisions, and delight users.",
       "primaryCta": "Start project",
       "secondaryCta": "See expertise",
       "meta": {
@@ -32,7 +38,7 @@
     "services": {
       "eyebrow": "Expertise",
       "title": "Digital solutions with a futuristic identity.",
-      "text": "We are specialists in mobile and artificial intelligence. We unite engineering, design, and data to build custom products that grow with your business.",
+      "text": "We are specialists in mobile and artificial intelligence. We unite engineering, design, and data to build custom software development programs that grow with your business.",
       "mobile": {
         "title": "Mobile Apps",
         "text": "Fluid experiences for iOS, Android, and cross-platform.",
@@ -89,16 +95,61 @@
       "title": "Modern technology for consistent results.",
       "text": "We select the best tools for each challenge, focusing on reliability and delivery speed."
     },
+    "insights": {
+      "eyebrow": "Knowledge",
+      "title": "Insights built for decision-makers.",
+      "text": "Explore long-form content on AI software development, mobile-first delivery, and system integration. Connect the dots between strategy, engineering, and measurable outcomes.",
+      "blog": {
+        "title": "Blog and playbooks",
+        "text": "Deep dives from a software developer team that ships AI, mobile, and enterprise systems.",
+        "link": "Read AI software development articles"
+      },
+      "caseStudies": {
+        "title": "Case studies",
+        "text": "Real projects that show what a software development company delivers under pressure.",
+        "link": "See software development case studies"
+      },
+      "services": {
+        "title": "Services",
+        "text": "Custom software development, system integration, and staff augmentation services for scale.",
+        "link": "Explore custom software development services"
+      }
+    },
     "contact": {
       "eyebrow": "Contact",
       "title": "Ready to create something unforgettable?",
       "text": "Tell us your idea and let's design a fast path to validate, build, and scale.",
-      "cta": "contato@jaguaretch.com.br",
+      "cta": "dev@jaguaretech.com.br",
       "backToTop": "Back to top"
     },
     "footer": {
       "tagline": "Mobile development and artificial intelligence.",
-      "location": "Brazil - remote"
+      "location": "Brazil - remote",
+      "servicesLink": "Software development services",
+      "caseStudiesLink": "Case studies",
+      "blogLink": "Blog"
+    }
+  },
+  "Meta": {
+    "home": {
+      "title": "Jaguaretech | Software development company for mobile & AI",
+      "description": "Software developer studio delivering AI software development, mobile apps, system integration, and staff augmentation services for enterprise teams.",
+      "keywords": "software developer, software development company, AI software development, staff augmentation services, mobile app development, custom software development, system integration"
+    },
+    "services": {
+      "title": "Services | Custom software development & AI software development",
+      "description": "Custom software development, AI software development, system integration, and staff augmentation services from a senior software development company.",
+      "keywords": "custom software development, AI software development, staff augmentation services, software development company, system integration"
+    },
+    "caseStudies": {
+      "title": "Case studies | Software development company results",
+      "description": "Case studies showcasing AI software development, system integration, and staff augmentation services delivered by a software developer team.",
+      "keywords": "software development company, AI software development, staff augmentation services, system integration, software developer"
+    },
+    "blog": {
+      "title": "Blog | AI software development & system integration",
+      "description": "Long-form insights on AI software development, mobile-first delivery, and system integration from a software development company.",
+      "keywords": "AI software development, software development company, mobile-first, system integration, staff augmentation services"
     }
   }
 }

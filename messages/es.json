@@ -4,16 +4,22 @@
       "services": "Servicios",
       "process": "Proceso",
       "stack": "Stack",
+      "insights": "Insights",
+      "caseStudies": "Casos de exito",
+      "blog": "Blog",
       "contact": "Contacto",
       "letsTalk": "Hablemos"
     },
+    "a11y": {
+      "skipToContent": "Saltar al contenido principal"
+    },
     "hero": {
-      "eyebrow": "Estudio de software",
-      "title": "Móvil e inteligencia artificial para productos que lideran.",
+      "eyebrow": "Estudio de Software",
+      "title": "Mobile e Inteligencia Artificial para productos vivos.",
       "badge": "Jaguaretech Lab",
-      "lede": "Jaguaretech transforma visiones en aplicaciones y plataformas inteligentes. Construimos experiencias mobile-first y sistemas de IA que aceleran negocios, automatizan decisiones y encantan a los usuarios.",
+      "lede": "Jaguaretech es una software development company que transforma visiones en apps y plataformas inteligentes. Entregamos AI software development, experiencias mobile-first y staff augmentation services para acelerar negocios.",
       "primaryCta": "Iniciar proyecto",
-      "secondaryCta": "Ver especialidades",
+      "secondaryCta": "Ver expertise",
       "meta": {
         "mobileFirst": {
           "title": "Mobile first",
@@ -21,25 +27,25 @@
         },
         "aiApplied": {
           "title": "IA aplicada",
-          "text": "Modelos generativos, visión por computadora y automatización."
+          "text": "Modelos generativos, vision computacional y automatizacion."
         },
         "endToEnd": {
-          "title": "Entrega punta a punta",
-          "text": "Desde el discovery hasta el despliegue continuo con equipo senior."
+          "title": "Entrega end-to-end",
+          "text": "Del discovery al deploy continuo con un equipo senior."
         }
       }
     },
     "services": {
-      "eyebrow": "Especialidades",
+      "eyebrow": "Expertise",
       "title": "Soluciones digitales con identidad futurista.",
-      "text": "Somos especialistas en móvil e inteligencia artificial. Unimos ingeniería, diseño y datos para construir productos a medida que crecen con su negocio.",
+      "text": "Somos especialistas en mobile e inteligencia artificial. Unimos ingenieria, diseno y datos para construir desarrollo de software personalizado.",
       "mobile": {
-        "title": "Apps Móviles",
+        "title": "Apps Mobile",
         "text": "Experiencias fluidas para iOS, Android y multiplataforma.",
         "list": [
           "React Native, Flutter y Swift/Kotlin",
           "Arquitectura offline-first y push inteligente",
-          "Design system y rendimiento de alto nivel"
+          "Design system y alto rendimiento"
         ]
       },
       "ai": {
@@ -47,7 +53,7 @@
         "text": "Inteligencia aplicada para automatizar y predecir resultados.",
         "list": [
           "LLMs, agentes y copilotos de negocio",
-          "Visión por computadora y recomendación",
+          "Vision computacional y recomendacion",
           "MLOps, gobernanza y monitoreo"
         ]
       },
@@ -56,49 +62,94 @@
         "text": "Front-ends performantes y APIs seguras para escalar.",
         "list": [
           "Next.js, dashboards y portales de datos",
-          "APIs, integraciones y automatización de procesos",
-          "Observabilidad y despliegue continuo"
+          "APIs, integraciones y automatizacion de procesos",
+          "Observabilidad y deploy continuo"
         ]
       }
     },
     "process": {
-      "eyebrow": "Método",
+      "eyebrow": "Metodo",
       "title": "Un proceso claro para proyectos ambiciosos.",
-      "text": "Trabajamos con ciclos cortos y visibilidad total. Desde la estrategia hasta el producto final, usted acompaña cada entrega.",
+      "text": "Trabajamos con ciclos cortos y visibilidad total. De la estrategia al producto final, acompanias cada entrega.",
       "steps": {
         "discovery": {
           "title": "Discovery profundo",
-          "text": "Mapeamos jornada, datos y objetivos para guiar el producto."
+          "text": "Mapeamos journey, datos y objetivos para guiar el producto."
         },
         "prototype": {
           "title": "Prototipo y arquitectura",
           "text": "Definimos flujos, stack y modelos de IA con seguridad."
         },
         "build": {
-          "title": "Build acelerado",
+          "title": "Construccion acelerada",
           "text": "Sprints con entregas semanales y feedback constante."
         },
         "scale": {
-          "title": "Escala y evolución",
-          "text": "Monitoreo, evoluciones e IA entrenada con datos reales."
+          "title": "Escala y evolucion",
+          "text": "Monitoreo, evoluciones y IA entrenada con datos reales."
         }
       }
     },
     "stack": {
       "eyebrow": "Stack",
-      "title": "Tecnología moderna para resultados consistentes.",
-      "text": "Seleccionamos las mejores herramientas para cada desafío, con foco en confiabilidad y velocidad de entrega."
+      "title": "Tecnologia moderna para resultados consistentes.",
+      "text": "Seleccionamos las mejores herramientas para cada desafio, enfocandonos en confiabilidad y velocidad de entrega."
+    },
+    "insights": {
+      "eyebrow": "Contenido",
+      "title": "Insights para lideres y decisores.",
+      "text": "Explora articulos largos sobre desarrollo de software personalizado, integracion de sistemas e IA aplicada.",
+      "blog": {
+        "title": "Blog y playbooks",
+        "text": "Contenido profundo de un equipo de software developer que entrega IA, mobile y sistemas empresariales.",
+        "link": "Leer articulos de AI software development"
+      },
+      "caseStudies": {
+        "title": "Casos de exito",
+        "text": "Proyectos reales que muestran el impacto de una software development company.",
+        "link": "Ver casos de desarrollo de software"
+      },
+      "services": {
+        "title": "Servicios",
+        "text": "Desarrollo de software personalizado, integracion de sistemas y staff augmentation services.",
+        "link": "Explorar servicios de desarrollo de software"
+      }
     },
     "contact": {
       "eyebrow": "Contacto",
-      "title": "¿Listo para crear algo inolvidable?",
-      "text": "Cuente su idea y vamos a diseñar un camino rápido para validar, construir y escalar.",
-      "cta": "contato@jaguaretch.com.br",
+      "title": "Listo para crear algo inolvidable?",
+      "text": "Cuenta tu idea y creemos un camino rapido para validar, construir y escalar.",
+      "cta": "dev@jaguaretech.com.br",
       "backToTop": "Volver arriba"
     },
     "footer": {
-      "tagline": "Desarrollo móvil e inteligencia artificial.",
-      "location": "Brasil - remoto"
+      "tagline": "Desarrollo mobile e inteligencia artificial.",
+      "location": "Brasil - remoto",
+      "servicesLink": "Servicios de desarrollo",
+      "caseStudiesLink": "Casos de exito",
+      "blogLink": "Blog"
+    }
+  },
+  "Meta": {
+    "home": {
+      "title": "Jaguaretech | Empresa de desarrollo de software e IA",
+      "description": "Empresa de desarrollo de software personalizado con AI software development e integracion de sistemas para equipos empresariales.",
+      "keywords": "software development company, AI software development, staff augmentation services, desarrollo de software personalizado, integracion de sistemas"
+    },
+    "services": {
+      "title": "Servicios | Desarrollo de software personalizado e IA",
+      "description": "Servicios de desarrollo de software personalizado, AI software development, integracion de sistemas y staff augmentation services.",
+      "keywords": "desarrollo de software personalizado, AI software development, staff augmentation services, integracion de sistemas"
+    },
+    "caseStudies": {
+      "title": "Casos de exito | Desarrollo de software e IA",
+      "description": "Resultados de AI software development, integracion de sistemas y staff augmentation services en proyectos empresariales.",
+      "keywords": "software development company, AI software development, staff augmentation services, integracion de sistemas"
+    },
+    "blog": {
+      "title": "Blog | AI software development e integracion de sistemas",
+      "description": "Articulos largos sobre AI software development, mobile-first e integracion de sistemas.",
+      "keywords": "AI software development, mobile-first, integracion de sistemas, software development company"
     }
   }
 }
