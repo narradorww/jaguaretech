@@ -1,37 +1,72 @@
 import LanguageSwitcher from "../components/LanguageSwitcher";
 import { setRequestLocale, getTranslations } from "next-intl/server";
+import { Link } from "../../src/i18n/routing";
+import { buildMetadata } from "../../src/lib/seo";
 import styles from "../page.module.css";
+
+export async function generateMetadata({ params }) {
+  const { locale } = await params;
+  setRequestLocale(locale);
+  const t = await getTranslations({ locale, namespace: "Meta" });
+  const keywords = t("home.keywords")
+    .split(",")
+    .map((keyword) => keyword.trim())
+    .filter(Boolean);
+
+  return buildMetadata({
+    locale,
+    title: t("home.title"),
+    description: t("home.description"),
+    keywords,
+    path: "/",
+    imageAlt: "Jaguaretech software development company and AI studio",
+  });
+}
 
 export default async function Home({ params }) {
   const { locale } = await params;
   setRequestLocale(locale);
   const t = await getTranslations("Home");
-// ... imports and component setup
+  const meta = await getTranslations({ locale, namespace: "Meta" });
 
   const jsonLd = {
     "@context": "https://schema.org",
-    "@type": "Organization",
-    name: "Jaguaretech",
-    url: "https://jaguaretech.com.br",
-    logo: "https://jaguaretech.com.br/hero-jaguaretch.png",
-    description: t("hero.lede"),
-    address: {
-      "@type": "PostalAddress",
-      addressCountry: "BR",
-    },
-    contactPoint: {
-      "@type": "ContactPoint",
-      email: "contato@jaguaretch.com.br",
-      contactType: "customer service",
-    },
-    sameAs: [
-      "https://www.linkedin.com/company/jaguaretech",
-      "https://twitter.com/jaguaretech",
+    "@graph": [
+      {
+        "@type": "Organization",
+        name: "Jaguaretech",
+        url: "https://jaguaretech.com.br",
+        logo: "https://jaguaretech.com.br/hero-jaguaretch.webp",
+        description: meta("home.description"),
+        address: {
+          "@type": "PostalAddress",
+          addressCountry: "BR",
+        },
+        contactPoint: {
+          "@type": "ContactPoint",
+          email: "dev@jaguaretech.com.br",
+          contactType: "customer service",
+        },
+        sameAs: [
+          "https://www.linkedin.com/company/jaguaretech",
+          "https://twitter.com/jaguaretech",
+        ],
+      },
+      {
+        "@type": "WebSite",
+        name: "Jaguaretech",
+        url: "https://jaguaretech.com.br",
+        description: meta("home.description"),
+        inLanguage: locale,
+      },
     ],
   };
 
   return (
     <div className={styles.page}>
+      <a className={styles.skipLink} href="#main-content">
+        {t("a11y.skipToContent")}
+      </a>
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
@@ -45,18 +80,19 @@ export default async function Home({ params }) {
           <a href="#servicos">{t("nav.services")}</a>
           <a href="#processo">{t("nav.process")}</a>
           <a href="#stack">{t("nav.stack")}</a>
+          <a href="#insights">{t("nav.insights")}</a>
           <a href="#contato">{t("nav.contact")}</a>
           <LanguageSwitcher />
         </nav>
         <a
           className={styles.headerCta}
-          href="mailto:contato@jaguaretch.com.br"
+          href={`mailto:${t("contact.cta")}`}
         >
           {t("nav.letsTalk")}
         </a>
       </header>
 
-      <main className={styles.main}>
+      <main className={styles.main} id="main-content">
         <section className={styles.hero} id="home">
           <div className={styles.heroIntro}>
             <p className={styles.eyebrow}>{t("hero.eyebrow")}</p>
@@ -70,7 +106,9 @@ export default async function Home({ params }) {
                 muted
                 loop
                 playsInline
-                poster="/hero-jaguaretch.png"
+                preload="none"
+                loading="lazy"
+                poster="/hero-jaguaretch.webp"
                 aria-label="Video heroico da Jaguaretech"
               >
                 <source src="/jaguar.mp4" type="video/mp4" />
@@ -118,12 +156,15 @@ export default async function Home({ params }) {
         <section
           className={styles.section}
           id="servicos"
+          aria-labelledby="servicos-title"
           itemScope
           itemType="https://schema.org/Service"
         >
           <div className={styles.sectionHeader}>
             <p className={styles.sectionEyebrow}>{t("services.eyebrow")}</p>
-            <h2 className={styles.sectionTitle}>{t("services.title")}</h2>
+            <h2 className={styles.sectionTitle} id="servicos-title">
+              {t("services.title")}
+            </h2>
             <p className={styles.sectionText}>{t("services.text")}</p>
           </div>
           <div className={`${styles.cards} ${styles.stagger}`}>
@@ -157,10 +198,16 @@ export default async function Home({ params }) {
           </div>
         </section>
 
-        <section className={styles.section} id="processo">
+        <section
+          className={styles.section}
+          id="processo"
+          aria-labelledby="processo-title"
+        >
           <div className={styles.sectionHeader}>
             <p className={styles.sectionEyebrow}>{t("process.eyebrow")}</p>
-            <h2 className={styles.sectionTitle}>{t("process.title")}</h2>
+            <h2 className={styles.sectionTitle} id="processo-title">
+              {t("process.title")}
+            </h2>
             <p className={styles.sectionText}>{t("process.text")}</p>
           </div>
           <div className={`${styles.process} ${styles.stagger}`}>
@@ -199,10 +246,16 @@ export default async function Home({ params }) {
           </div>
         </section>
 
-        <section className={styles.section} id="stack">
+        <section
+          className={styles.section}
+          id="stack"
+          aria-labelledby="stack-title"
+        >
           <div className={styles.sectionHeader}>
             <p className={styles.sectionEyebrow}>{t("stack.eyebrow")}</p>
-            <h2 className={styles.sectionTitle}>{t("stack.title")}</h2>
+            <h2 className={styles.sectionTitle} id="stack-title">
+              {t("stack.title")}
+            </h2>
             <p className={styles.sectionText}>{t("stack.text")}</p>
           </div>
           <div className={styles.stackGrid}>
@@ -219,6 +272,40 @@ export default async function Home({ params }) {
           </div>
         </section>
 
+        <section
+          className={styles.section}
+          id="insights"
+          aria-labelledby="insights-title"
+        >
+          <div className={styles.sectionHeader}>
+            <p className={styles.sectionEyebrow}>{t("insights.eyebrow")}</p>
+            <h2 className={styles.sectionTitle} id="insights-title">
+              {t("insights.title")}
+            </h2>
+            <p className={styles.sectionText}>{t("insights.text")}</p>
+          </div>
+          <div className={`${styles.cards} ${styles.stagger}`}>
+            <article className={styles.card}>
+              <h3 className={styles.cardTitle}>
+                {t("insights.portfolio.title")}
+              </h3>
+              <p className={styles.cardText}>{t("insights.portfolio.text")}</p>
+              <Link className={styles.inlineLink} href="/portfolio">
+                {t("insights.portfolio.link")}
+              </Link>
+            </article>
+            <article className={styles.card}>
+              <h3 className={styles.cardTitle}>
+                {t("insights.services.title")}
+              </h3>
+              <p className={styles.cardText}>{t("insights.services.text")}</p>
+              <Link className={styles.inlineLink} href="/services">
+                {t("insights.services.link")}
+              </Link>
+            </article>
+          </div>
+        </section>
+
         <section className={styles.cta} id="contato">
           <div className={styles.ctaContent}>
             <p className={styles.sectionEyebrow}>{t("contact.eyebrow")}</p>
@@ -228,7 +315,7 @@ export default async function Home({ params }) {
           <div className={styles.ctaActions}>
             <a
               className={styles.primaryButton}
-              href="mailto:contato@jaguaretch.com.br"
+              href={`mailto:${t("contact.cta")}`}
             >
               {t("contact.cta")}
             </a>
@@ -247,8 +334,10 @@ export default async function Home({ params }) {
         <div className={styles.footerRow}>
           <span className={styles.footerText}>{t("footer.location")}</span>
           <div className={styles.footerLinks}>
-            <a href="mailto:contato@jaguaretch.com.br">Email</a>
+            <a href={`mailto:${t("contact.cta")}`}>Email</a>
             <a href="#servicos">{t("nav.services")}</a>
+            <Link href="/services">{t("footer.servicesLink")}</Link>
+            <Link href="/portfolio">{t("footer.portfolioLink")}</Link>
             <a href="#contato">{t("nav.contact")}</a>
           </div>
         </div>

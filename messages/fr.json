@@ -5,8 +5,7 @@
       "process": "Processus",
       "stack": "Stack",
       "insights": "Insights",
-      "caseStudies": "Etudes de cas",
-      "blog": "Blog",
+      "portfolio": "Portfolio",
       "contact": "Contact",
       "letsTalk": "Discutons"
     },
@@ -99,15 +98,10 @@
       "eyebrow": "Contenu",
       "title": "Insights pour leaders et decideurs.",
       "text": "Explorez des articles longs sur le developpement logiciel sur mesure, l'integration de systemes et l'IA appliquee.",
-      "blog": {
-        "title": "Blog et playbooks",
-        "text": "Contenu approfondi d'une equipe de software developer qui livre IA, mobile et systemes enterprise.",
-        "link": "Lire les articles AI software development"
-      },
-      "caseStudies": {
-        "title": "Etudes de cas",
+      "portfolio": {
+        "title": "Portfolio de projets",
         "text": "Projets reels qui montrent l'impact d'une software development company.",
-        "link": "Voir les etudes de cas"
+        "link": "Voir les projets et resultats"
       },
       "services": {
         "title": "Services",
@@ -126,8 +120,7 @@
       "tagline": "Developpement mobile et intelligence artificielle.",
       "location": "Bresil - remote",
       "servicesLink": "Services logiciels",
-      "caseStudiesLink": "Etudes de cas",
-      "blogLink": "Blog"
+      "portfolioLink": "Portfolio"
     }
   },
   "Meta": {
@@ -146,10 +139,28 @@
       "description": "Resultats de AI software development, integration de systemes et staff augmentation services sur des projets enterprise.",
       "keywords": "software development company, AI software development, staff augmentation services, integration de systemes"
     },
-    "blog": {
-      "title": "Blog | AI software development et integration de systemes",
-      "description": "Articles longs sur AI software development, mobile-first et integration de systemes.",
-      "keywords": "AI software development, mobile-first, integration de systemes, software development company"
+    "portfolio": {
+      "title": "Portfolio | Projets logiciels, IA et mobile | Jaguaretech",
+      "description": "Portfolio de projets reels de Jaguaretech: developpement logiciel sur mesure, AI software development, integration de systemes et staff augmentation services.",
+      "keywords": "portfolio logiciel, developpement logiciel sur mesure, AI software development, integration de systemes, staff augmentation services"
     }
+  },
+  "Portfolio": {
+    "eyebrow": "Portfolio",
+    "heading": "Projets reels, resultats mesurables.",
+    "lead": "Chaque projet represente un vrai defi resolu avec engineering, design et intelligence artificielle. Nous explorons le mobile-first, l'AI software development et l'integration de systemes pour des equipes qui avaient besoin de vitesse et de confiance.",
+    "pills": {
+      "mobile": "Mobile-first",
+      "ai": "IA appliquee",
+      "integration": "Integration de systemes"
+    },
+    "projectsListLabel": "Liste des projets",
+    "readMore": "Voir le projet complet",
+    "challengeLabel": "Le defi",
+    "solutionLabel": "La solution",
+    "resultsLabel": "Resultats",
+    "stackLabel": "Stack utilisee",
+    "backToPortfolio": "Retour au portfolio",
+    "seeServices": "Voir les services"
   }
 }

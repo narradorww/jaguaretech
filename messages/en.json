@@ -5,8 +5,7 @@
       "process": "Process",
       "stack": "Stack",
       "insights": "Insights",
-      "caseStudies": "Case studies",
-      "blog": "Blog",
+      "portfolio": "Portfolio",
       "contact": "Contact",
       "letsTalk": "Let's talk"
     },
@@ -99,15 +98,10 @@
       "eyebrow": "Knowledge",
       "title": "Insights built for decision-makers.",
       "text": "Explore long-form content on AI software development, mobile-first delivery, and system integration. Connect the dots between strategy, engineering, and measurable outcomes.",
-      "blog": {
-        "title": "Blog and playbooks",
-        "text": "Deep dives from a software developer team that ships AI, mobile, and enterprise systems.",
-        "link": "Read AI software development articles"
-      },
-      "caseStudies": {
-        "title": "Case studies",
+      "portfolio": {
+        "title": "Project portfolio",
         "text": "Real projects that show what a software development company delivers under pressure.",
-        "link": "See software development case studies"
+        "link": "See projects and results"
       },
       "services": {
         "title": "Services",
@@ -126,8 +120,7 @@
       "tagline": "Mobile development and artificial intelligence.",
       "location": "Brazil - remote",
       "servicesLink": "Software development services",
-      "caseStudiesLink": "Case studies",
-      "blogLink": "Blog"
+      "portfolioLink": "Portfolio"
     }
   },
   "Meta": {
@@ -146,10 +139,28 @@
       "description": "Case studies showcasing AI software development, system integration, and staff augmentation services delivered by a software developer team.",
       "keywords": "software development company, AI software development, staff augmentation services, system integration, software developer"
     },
-    "blog": {
-      "title": "Blog | AI software development & system integration",
-      "description": "Long-form insights on AI software development, mobile-first delivery, and system integration from a software development company.",
-      "keywords": "AI software development, software development company, mobile-first, system integration, staff augmentation services"
+    "portfolio": {
+      "title": "Portfolio | Software, AI & mobile projects | Jaguaretech",
+      "description": "Jaguaretech's portfolio of real projects: custom software development, AI software development, system integration, and staff augmentation services.",
+      "keywords": "software portfolio, custom software development, AI software development, system integration, staff augmentation services, mobile projects"
     }
+  },
+  "Portfolio": {
+    "eyebrow": "Portfolio",
+    "heading": "Real projects, measurable results.",
+    "lead": "Every project here represents a real challenge solved with engineering, design, and artificial intelligence. We explore mobile-first delivery, AI software development, and system integration for teams that needed speed and confidence.",
+    "pills": {
+      "mobile": "Mobile-first",
+      "ai": "Applied AI",
+      "integration": "System integration"
+    },
+    "projectsListLabel": "Projects list",
+    "readMore": "View full project",
+    "challengeLabel": "The challenge",
+    "solutionLabel": "The solution",
+    "resultsLabel": "Results",
+    "stackLabel": "Stack used",
+    "backToPortfolio": "Back to portfolio",
+    "seeServices": "See services"
   }
 }

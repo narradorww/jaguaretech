@@ -5,8 +5,7 @@
       "process": "Processo",
       "stack": "Stack",
       "insights": "Insights",
-      "caseStudies": "Estudos de caso",
-      "blog": "Blog",
+      "portfolio": "Portfólio",
       "contact": "Contato",
       "letsTalk": "Vamos conversar"
     },
@@ -99,15 +98,10 @@
       "eyebrow": "Conteudo",
       "title": "Insights para lideres e decisores.",
       "text": "Explore artigos longos sobre desenvolvimento de software personalizado, integracao de sistemas e IA aplicada para negocios.",
-      "blog": {
-        "title": "Blog e playbooks",
-        "text": "Conteudo estrategico feito por um time de software developer que entrega IA, mobile e sistemas empresariais.",
-        "link": "Ler artigos de AI software development"
-      },
-      "caseStudies": {
-        "title": "Estudos de caso",
+      "portfolio": {
+        "title": "Portfólio de projetos",
         "text": "Projetos reais que mostram o impacto de uma software development company sob pressao.",
-        "link": "Ver estudos de caso em desenvolvimento de software"
+        "link": "Ver projetos e resultados"
       },
       "services": {
         "title": "Servicos",
@@ -126,8 +120,7 @@
       "tagline": "Desenvolvimento mobile e inteligencia artificial.",
       "location": "Brasil - remoto",
       "servicesLink": "Servicos de desenvolvimento",
-      "caseStudiesLink": "Estudos de caso",
-      "blogLink": "Blog"
+      "portfolioLink": "Portfólio"
     }
   },
   "Meta": {
@@ -146,10 +139,28 @@
       "description": "Resultados de desenvolvimento de software personalizado, solucoes tecnologicas empresariais e integracao de sistemas com IA.",
       "keywords": "desenvolvimento de software personalizado, integracao de sistemas, solucoes tecnologicas empresariais, IA aplicada, AI software development"
     },
-    "blog": {
-      "title": "Blog | IA, mobile-first e integracao de sistemas",
-      "description": "Artigos longos sobre IA aplicada, desenvolvimento de software personalizado e integracao de sistemas para lideres digitais.",
-      "keywords": "IA aplicada, desenvolvimento de software personalizado, integracao de sistemas, mobile-first, solucoes tecnologicas empresariais"
+    "portfolio": {
+      "title": "Portfólio | Projetos de software, IA e mobile | Jaguaretech",
+      "description": "Portfólio de projetos reais da Jaguaretech: desenvolvimento de software personalizado, AI software development, integracao de sistemas e staff augmentation services.",
+      "keywords": "portfolio software, desenvolvimento de software personalizado, AI software development, integracao de sistemas, staff augmentation services, projetos de mobile"
     }
+  },
+  "Portfolio": {
+    "eyebrow": "Portfólio",
+    "heading": "Projetos reais, resultados mensuráveis.",
+    "lead": "Cada projeto aqui representa um desafio real resolvido com engenharia, design e inteligência artificial. Exploramos mobile-first, AI software development e integracao de sistemas para empresas que precisavam ganhar velocidade e confianca.",
+    "pills": {
+      "mobile": "Mobile-first",
+      "ai": "IA aplicada",
+      "integration": "Integracao de sistemas"
+    },
+    "projectsListLabel": "Lista de projetos",
+    "readMore": "Ver projeto completo",
+    "challengeLabel": "O desafio",
+    "solutionLabel": "A solucao",
+    "resultsLabel": "Resultados",
+    "stackLabel": "Stack utilizada",
+    "backToPortfolio": "Voltar ao portfólio",
+    "seeServices": "Ver servicos"
   }
 }
