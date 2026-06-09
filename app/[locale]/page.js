@@ -1,5 +1,6 @@
 import LanguageSwitcher from "../components/LanguageSwitcher";
 import ContactForm from "../components/ContactForm";
+import ServiceCards from "../components/ServiceCards";
 import { setRequestLocale, getTranslations } from "next-intl/server";
 import { Link } from "../../src/i18n/routing";
 import { buildMetadata } from "../../src/lib/seo";
@@ -168,62 +169,7 @@ export default async function Home({ params }) {
             </h2>
             <p className={styles.sectionText}>{t("services.text")}</p>
           </div>
-          <div className={`${styles.cards} ${styles.stagger}`}>
-            <article className={styles.card}>
-              <h3 className={styles.cardTitle}>{t("services.mobile.title")}</h3>
-              <p className={styles.cardText}>{t("services.mobile.text")}</p>
-              <ul className={styles.cardList}>
-                <li>{t("services.mobile.list.0")}</li>
-                <li>{t("services.mobile.list.1")}</li>
-                <li>{t("services.mobile.list.2")}</li>
-              </ul>
-            </article>
-            <article className={styles.card}>
-              <h3 className={styles.cardTitle}>{t("services.ai.title")}</h3>
-              <p className={styles.cardText}>{t("services.ai.text")}</p>
-              <ul className={styles.cardList}>
-                <li>{t("services.ai.list.0")}</li>
-                <li>{t("services.ai.list.1")}</li>
-                <li>{t("services.ai.list.2")}</li>
-              </ul>
-            </article>
-            <article className={styles.card}>
-              <h3 className={styles.cardTitle}>{t("services.web.title")}</h3>
-              <p className={styles.cardText}>{t("services.web.text")}</p>
-              <ul className={styles.cardList}>
-                <li>{t("services.web.list.0")}</li>
-                <li>{t("services.web.list.1")}</li>
-                <li>{t("services.web.list.2")}</li>
-              </ul>
-            </article>
-            <article className={styles.card}>
-              <h3 className={styles.cardTitle}>{t("services.seo.title")}</h3>
-              <p className={styles.cardText}>{t("services.seo.text")}</p>
-              <ul className={styles.cardList}>
-                <li>{t("services.seo.list.0")}</li>
-                <li>{t("services.seo.list.1")}</li>
-                <li>{t("services.seo.list.2")}</li>
-              </ul>
-            </article>
-            <article className={styles.card}>
-              <h3 className={styles.cardTitle}>{t("services.marketing.title")}</h3>
-              <p className={styles.cardText}>{t("services.marketing.text")}</p>
-              <ul className={styles.cardList}>
-                <li>{t("services.marketing.list.0")}</li>
-                <li>{t("services.marketing.list.1")}</li>
-                <li>{t("services.marketing.list.2")}</li>
-              </ul>
-            </article>
-            <article className={styles.card}>
-              <h3 className={styles.cardTitle}>{t("services.product.title")}</h3>
-              <p className={styles.cardText}>{t("services.product.text")}</p>
-              <ul className={styles.cardList}>
-                <li>{t("services.product.list.0")}</li>
-                <li>{t("services.product.list.1")}</li>
-                <li>{t("services.product.list.2")}</li>
-              </ul>
-            </article>
-          </div>
+          <ServiceCards />
         </section>
 
         <section

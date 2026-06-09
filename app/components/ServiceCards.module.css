@@ -1,0 +1,33 @@
+.clickable {
+  cursor: pointer;
+  transition: border-color 0.2s, transform 0.2s, box-shadow 0.2s;
+  position: relative;
+}
+
+.clickable:hover {
+  border-color: rgba(37, 255, 136, 0.4);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(37, 255, 136, 0.08);
+}
+
+.clickable:focus-visible {
+  outline: 2px solid var(--neon, #25ff88);
+  outline-offset: 3px;
+}
+
+.cta {
+  display: inline-block;
+  margin-top: 1rem;
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  color: var(--neon, #25ff88);
+  opacity: 0;
+  transform: translateX(-4px);
+  transition: opacity 0.2s, transform 0.2s;
+}
+
+.clickable:hover .cta {
+  opacity: 1;
+  transform: translateX(0);
+}

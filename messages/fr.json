@@ -35,6 +35,7 @@
       }
     },
     "services": {
+      "cardCta": "Parler de ce service",
       "eyebrow": "Expertise",
       "title": "Solutions digitales avec une identite futuriste.",
       "text": "Nous sommes specialises en mobile et intelligence artificielle. Nous combinons engineering, design et data pour du developpement logiciel sur mesure.",
@@ -134,6 +135,130 @@
         "title": "Services",
         "text": "Developpement logiciel sur mesure, integration de systemes et staff augmentation services.",
         "link": "Explorer les services logiciels"
+      }
+    },
+    "leadModal": {
+      "close": "Fermer",
+      "next": "Suivant",
+      "back": "Retour",
+      "submit": "Envoyer",
+      "sending": "Envoi...",
+      "successTitle": "Message reçu !",
+      "successText": "Nous allons analyser et vous recontacter bientôt.",
+      "errorText": "Quelque chose s'est mal passé. Réessayez.",
+      "emailLabel": "Quel est votre email de contact ?",
+      "emailPlaceholder": "vous@email.com",
+      "budgetLabel": "Quelle fourchette d'investissement envisagez-vous ?",
+      "budgetOptions": [
+        "Je suis encore en train d'évaluer",
+        "Jusqu'à €2 000",
+        "€2 000 à €6 000",
+        "€6 000 à €15 000",
+        "Plus de €15 000"
+      ],
+      "services": {
+        "mobile": {
+          "title": "Parlons de votre application ?",
+          "questions": [
+            {
+              "label": "Quelle plateforme avez-vous en tête ?",
+              "options": ["iOS", "Android", "Les deux", "Pas encore sûr"]
+            },
+            {
+              "label": "L'app a-t-elle déjà un design ou partons-nous de zéro ?",
+              "options": ["Design prêt", "J'ai des références", "De zéro"]
+            },
+            {
+              "label": "Quel est votre horizon de lancement ?",
+              "options": ["Moins de 3 mois", "3 à 6 mois", "Plus de 6 mois", "Encore indéfini"]
+            }
+          ]
+        },
+        "ai": {
+          "title": "Parlons d'IA dans votre entreprise ?",
+          "questions": [
+            {
+              "label": "Quel défi voulez-vous résoudre avec l'IA ?",
+              "options": ["Support et service client", "Automatisation des processus", "Analyse de données", "Autre"]
+            },
+            {
+              "label": "Avez-vous déjà des données disponibles pour alimenter le modèle ?",
+              "options": ["Oui, beaucoup", "J'en ai quelques-unes", "Pas encore", "Je ne sais pas évaluer"]
+            },
+            {
+              "label": "Utilisez-vous déjà des outils d'IA aujourd'hui ?",
+              "options": ["Oui", "Non", "Nous évaluons"]
+            }
+          ]
+        },
+        "web": {
+          "title": "Parlons de votre plateforme ?",
+          "questions": [
+            {
+              "label": "Est-ce un nouveau produit ou souhaitez-vous faire évoluer l'existant ?",
+              "options": ["Nouveau produit", "Évolution", "Refactor complet"]
+            },
+            {
+              "label": "Quel est le cœur du projet ?",
+              "options": ["Dashboard", "E-commerce", "Portail", "API", "Pas encore sûr"]
+            },
+            {
+              "label": "Combien d'utilisateurs attendez-vous au lancement ?",
+              "options": ["Jusqu'à 1k", "1k à 10k", "Plus de 10k", "Pas encore sûr"]
+            }
+          ]
+        },
+        "seo": {
+          "title": "Parlons de votre visibilité digitale ?",
+          "questions": [
+            {
+              "label": "Comment est votre présence digitale aujourd'hui ?",
+              "options": ["Pas de site web", "J'en ai un mais il n'apparaît pas", "Il apparaît mais ne convertit pas", "Je veux apparaître dans l'IA"]
+            },
+            {
+              "label": "Quel est votre principal objectif ?",
+              "options": ["Plus de trafic organique", "Apparaître dans ChatGPT et recherches IA", "Meilleure conversion", "Tout cela"]
+            },
+            {
+              "label": "Produisez-vous déjà du contenu ?",
+              "options": ["Oui, régulièrement", "Parfois", "Pas encore"]
+            }
+          ]
+        },
+        "marketing": {
+          "title": "Parlons de votre stratégie marketing ?",
+          "questions": [
+            {
+              "label": "Par où voulez-vous commencer ?",
+              "options": ["Trafic payant", "SEO et contenu", "Email et automatisation", "Je veux une stratégie complète"]
+            },
+            {
+              "label": "Avez-vous un budget média défini ?",
+              "options": ["Oui", "Pas encore", "Je préfère en discuter"]
+            },
+            {
+              "label": "Comment mesurez-vous le succès aujourd'hui ?",
+              "options": ["Leads", "Ventes", "Trafic", "Je ne mesure pas encore"]
+            }
+          ]
+        },
+        "product": {
+          "title": "Parlons de votre produit ?",
+          "questions": [
+            {
+              "label": "À quelle phase est votre projet ?",
+              "options": ["Juste une idée", "Déjà validé avec des utilisateurs", "Produit en cours, doit évoluer"]
+            },
+            {
+              "label": "Avez-vous une équipe technique aujourd'hui ?",
+              "options": ["Oui, en interne", "J'ai des partenaires", "Personne encore"]
+            },
+            {
+              "label": "Quel est le plus grand blocage aujourd'hui ?",
+              "options": ["Je ne sais pas par où commencer", "Manque d'équipe", "Manque de clarté produit", "Manque de budget"]
+            }
+          ]
+        }
       }
     },
     "contact": {
