@@ -71,19 +71,9 @@ export default async function Portfolio({ params }) {
           </h2>
           {portfolioProjects.map((project) => (
             <article key={project.slug} className={styles.contentArticle}>
-              <div className={styles.contentMeta} style={{ marginBottom: "0.75rem" }}>
-                <span className={styles.contentPill}>{project.sector[locale] || project.sector.en}</span>
-                {project.stack.slice(0, 3).map((tech) => (
-                  <span key={tech} className={styles.contentPill}>{tech}</span>
-                ))}
-              </div>
+              <p className={styles.eyebrow}>{project.sector[locale] || project.sector.en}</p>
               <h2>{project.title[locale] || project.title.en}</h2>
               <p>{project.description[locale] || project.description.en}</p>
-              <ul className={styles.contentList}>
-                {project.results.map((result, i) => (
-                  <li key={i}>{result[locale] || result.en}</li>
-                ))}
-              </ul>
               <Link className={styles.inlineLink} href={`/portfolio/${project.slug}`}>
                 {t("readMore")}
               </Link>
