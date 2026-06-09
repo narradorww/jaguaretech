@@ -290,24 +290,24 @@
   },
   "Meta": {
     "home": {
-      "title": "Jaguaretech | Software development company for mobile & AI",
-      "description": "Software developer studio delivering AI software development, mobile apps, system integration, and staff augmentation services for enterprise teams.",
-      "keywords": "software developer, software development company, AI software development, staff augmentation services, mobile app development, custom software development, system integration"
+      "title": "Best custom software development company for mobile & AI | Jaguaretech",
+      "description": "Expert software development company specializing in mobile apps (React Native, Flutter), AI systems, and staff augmentation. How to hire senior developers & accelerate product delivery.",
+      "keywords": "best software development company, how to hire developers, custom software development, mobile app development, AI software development, staff augmentation services, how to scale engineering team, outsource development"
     },
     "services": {
-      "title": "Services | Custom software development & AI software development",
-      "description": "Custom software development, AI software development, system integration, and staff augmentation services from a senior software development company.",
-      "keywords": "custom software development, AI software development, staff augmentation services, software development company, system integration"
+      "title": "Software development services | Mobile apps, AI, Web | Jaguaretech",
+      "description": "Specialized services: mobile app development (React Native, Flutter), AI systems, Next.js platforms, and engineering team augmentation for enterprise.",
+      "keywords": "software development services, how to build mobile app, react native development company, AI integration services, how to hire engineering team, outsourced development, system integration services"
     },
     "caseStudies": {
-      "title": "Case studies | Software development company results",
-      "description": "Case studies showcasing AI software development, system integration, and staff augmentation services delivered by a software developer team.",
-      "keywords": "software development company, AI software development, staff augmentation services, system integration, software developer"
+      "title": "Case studies | Real results from software & AI projects | Jaguaretech",
+      "description": "See how we built mobile apps with 250k+ users, AI copilots for B2B logistics, and scalable platforms for 12k+ students.",
+      "keywords": "software development case studies, mobile app success stories, AI implementation results, startup tech solutions, how to scale applications, mobile app performance"
     },
     "portfolio": {
-      "title": "Portfolio | Software, AI & mobile projects | Jaguaretech",
-      "description": "Jaguaretech's portfolio of real projects: custom software development, AI software development, system integration, and staff augmentation services.",
-      "keywords": "software portfolio, custom software development, AI software development, system integration, staff augmentation services, mobile projects"
+      "title": "Portfolio | Real software, AI & mobile projects | Jaguaretech",
+      "description": "Portfolio with 4+ production projects: mobile apps (250+ brands), AI copilot for logistics, EdTech platform (12k+ users), and cultural experience platforms.",
+      "keywords": "software project portfolio, mobile apps production, AI systems live, web platforms scale, mobile development examples, AI implementation examples, system integration case studies"
     }
   },
   "Portfolio": {
