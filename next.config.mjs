@@ -23,6 +23,29 @@ const nextConfig = {
   async headers() {
     return [
       {
+        source: "/(.*)",
+        headers: [
+          // Security headers
+          {
+            key: "X-Content-Type-Options",
+            value: "nosniff",
+          },
+          {
+            key: "X-Frame-Options",
+            value: "SAMEORIGIN",
+          },
+          {
+            key: "Referrer-Policy",
+            value: "strict-origin-when-cross-origin",
+          },
+          // AI crawler optimization
+          {
+            key: "X-Robots-Tag",
+            value: "all, noai, noimageai, nocolonization",
+          },
+        ],
+      },
+      {
         source: "/_next/static/:path*",
         headers: [
           {
@@ -32,7 +55,7 @@ const nextConfig = {
         ],
       },
       {
-        source: "/hero-jaguaretch.webp",
+        source: "/:path*.(webp|jpg|jpeg|png|gif|svg|ico)",
         headers: [
           {
             key: "Cache-Control",
@@ -41,16 +64,20 @@ const nextConfig = {
         ],
       },
       {
-        source: "/hero-jaguaretch.png",
+        source: "/llms:path(.*\\.txt)",
         headers: [
           {
             key: "Cache-Control",
-            value: "public, max-age=31536000, immutable",
+            value: "public, max-age=604800",
+          },
+          {
+            key: "Content-Type",
+            value: "text/plain; charset=utf-8",
           },
         ],
       },
       {
-        source: "/jaguar.mp4",
+        source: "/favicon.ico",
         headers: [
           {
             key: "Cache-Control",
