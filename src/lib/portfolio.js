@@ -25,6 +25,7 @@
 export const portfolioProjects = [
   {
     slug: "vibe-app-beneficios",
+    publishedDate: "2024-01-15",
     sector: {
       pt: "Benefícios & Fidelidade",
       en: "Benefits & Loyalty",
@@ -93,6 +94,7 @@ export const portfolioProjects = [
   },
   {
     slug: "moveintech-copiloto-logistico",
+    publishedDate: "2024-02-20",
     sector: {
       pt: "Logística B2B",
       en: "B2B Logistics",
@@ -161,6 +163,7 @@ export const portfolioProjects = [
   },
   {
     slug: "talkntalk-plataforma-idiomas",
+    publishedDate: "2024-03-10",
     sector: {
       pt: "EdTech",
       en: "EdTech",
@@ -229,6 +232,7 @@ export const portfolioProjects = [
   },
   {
     slug: "chakaruna-produtora-cultural",
+    publishedDate: "2024-04-05",
     sector: {
       pt: "Economia Criativa",
       en: "Creative Economy",

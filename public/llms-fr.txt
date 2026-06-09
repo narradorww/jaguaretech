@@ -1,0 +1,47 @@
+# Jaguaretech
+
+> Studio logiciel axé sur le mobile, l'IA appliquée et le développement de logiciels personnalisés.
+
+## Qui Sommes-Nous
+Jaguaretech est une société de développement de logiciels qui transforme les visions en applications mobile-first, plateformes web et systèmes intelligents. Nous livrons du AI software development, de l'intégration de systèmes et des services de staff augmentation avec des équipes senior.
+
+## Services
+- **Apps Mobile**: React Native, Flutter, Swift/Kotlin. Architecture offline-first.
+- **AI Software Development**: LLMs, agents, automatisation, vision par ordinateur.
+- **Plateformes Web**: Next.js, tableaux de bord haute performance, APIs évolutives.
+- **Intégration de Systèmes**: ERPs, CRMs, paiements, données en temps réel.
+- **Staff Augmentation Services**: ingénieurs et spécialistes pour accélérer les livraisons.
+
+## Pages Principales
+- **Home**: / (pt), /en, /es, /fr
+- **Services**: /services (pt), /en/services, /es/services, /fr/services
+- **Portfolio**: /portfolio (pt), /en/portfolio, /es/portfolio, /fr/portfolio (les études de cas et le blog redirigent ici)
+
+## Stack Technologique
+- **Mobile**: React Native, Flutter
+- **Web**: Next.js, React, Node.js
+- **AI/Data**: Python, TensorFlow, OpenAI API, LangChain
+- **Infrastructure**: AWS, Vercel, PostgreSQL
+
+## Mots-Clés
+- software developer
+- software development company
+- AI software development
+- staff augmentation services
+- développement de logiciels personnalisés
+- solutions technologiques d'entreprise
+- intégration de systèmes
+
+## Contact
+- **Email**: dev@jaguaretech.com.br
+- **Website**: https://jaguaretech.com.br
+- **Localisation**: Brésil (À distance)
+
+## Mission
+Construire des produits numériques « vivants » qui apprennent et évoluent avec l'utilisation, livrant une valeur réelle et mesurable à nos partenaires.
+
+## Projets Récents
+- Créditos Vibe: Application mobile d'avantages et cashback pour 250+ marques
+- MoveInTech: Copilote IA pour les opérations logistiques B2B
+- TalkNTalk: Plateforme d'immersion linguistique avec 12,750+ étudiants
+- Chakaruna: Présence numérique pour producteur d'expériences culturelles

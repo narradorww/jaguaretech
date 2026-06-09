@@ -4,6 +4,12 @@ import ServiceCards from "../components/ServiceCards";
 import { setRequestLocale, getTranslations } from "next-intl/server";
 import { Link } from "../../src/i18n/routing";
 import { buildMetadata } from "../../src/lib/seo";
+import {
+  getHomePageSchema,
+  getServiceSchema,
+  getFAQSchema,
+  getLocalBusinessSchema,
+} from "../../src/lib/schemas";
 import styles from "../page.module.css";
 
 export async function generateMetadata({ params }) {
@@ -31,48 +37,58 @@ export default async function Home({ params }) {
   const t = await getTranslations("Home");
   const meta = await getTranslations({ locale, namespace: "Meta" });
 
-  const jsonLd = {
-    "@context": "https://schema.org",
-    "@graph": [
-      {
-        "@type": "Organization",
-        name: "Jaguaretech",
-        url: "https://jaguaretech.com.br",
-        logo: "https://jaguaretech.com.br/hero-jaguaretch.webp",
-        description: meta("home.description"),
-        address: {
-          "@type": "PostalAddress",
-          addressCountry: "BR",
-        },
-        contactPoint: {
-          "@type": "ContactPoint",
-          email: "dev@jaguaretech.com.br",
-          contactType: "customer service",
-        },
-        sameAs: [
-          "https://www.linkedin.com/company/jaguaretech",
-          "https://twitter.com/jaguaretech",
-        ],
-      },
-      {
-        "@type": "WebSite",
-        name: "Jaguaretech",
-        url: "https://jaguaretech.com.br",
-        description: meta("home.description"),
-        inLanguage: locale,
-      },
-    ],
+  const localeMap = {
+    pt: "pt-BR",
+    en: "en-US",
+    es: "es-ES",
+    fr: "fr-FR",
   };
+
+  // FAQ schema for GEO optimization
+  const faqItems = [
+    {
+      question: t("hero.title"),
+      answer: t("lede"),
+    },
+    {
+      question: t("services.eyebrow"),
+      answer: t("services.text"),
+    },
+    {
+      question: t("process.eyebrow"),
+      answer: t("process.text"),
+    },
+  ];
+
+  // Services for Service schema
+  const services = [
+    { key: "mobile", title: t("services.mobile.title"), text: t("services.mobile.text") },
+    { key: "ai", title: t("services.ai.title"), text: t("services.ai.text") },
+    { key: "web", title: t("services.web.title"), text: t("services.web.text") },
+    { key: "seo", title: t("services.seo.title"), text: t("services.seo.text") },
+    { key: "marketing", title: t("services.marketing.title"), text: t("services.marketing.text") },
+    { key: "product", title: t("services.product.title"), text: t("services.product.text") },
+  ];
+
+  const jsonLdArray = [
+    getHomePageSchema(locale, { description: meta("home.description") }),
+    getServiceSchema(services, locale),
+    getFAQSchema(faqItems),
+    getLocalBusinessSchema(locale),
+  ];
 
   return (
     <div className={styles.page}>
       <a className={styles.skipLink} href="#main-content">
         {t("a11y.skipToContent")}
       </a>
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-      />
+      {jsonLdArray.map((schema, idx) => (
+        <script
+          key={idx}
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+        />
+      ))}
       <header className={styles.header}>
         <a className={styles.brand} href="#home">
           <span className={styles.brandMark} aria-hidden="true" />

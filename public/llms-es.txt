@@ -1,0 +1,47 @@
+# Jaguaretech
+
+> Estudio de software enfocado en mobile, IA aplicada y desarrollo de software personalizado.
+
+## Quiénes Somos
+Jaguaretech es una software development company que transforma visiones en apps mobile-first, plataformas web y sistemas inteligentes. Entregamos AI software development, integración de sistemas y staff augmentation services con squads senior.
+
+## Servicios
+- **Apps Mobile**: React Native, Flutter, Swift/Kotlin. Arquitectura offline-first.
+- **AI Software Development**: LLMs, agentes, automatización, visión computacional.
+- **Plataformas Web**: Next.js, dashboards de alto rendimiento, APIs escalables.
+- **Integración de Sistemas**: ERPs, CRMs, pagos, datos en tiempo real.
+- **Staff Augmentation Services**: ingenieros y especialistas para acelerar entregas.
+
+## Páginas Principales
+- **Home**: / (pt), /en, /es, /fr
+- **Servicios**: /services (pt), /en/services, /es/services, /fr/services
+- **Portafolio**: /portfolio (pt), /en/portfolio, /es/portfolio, /fr/portfolio (estudios de caso y blog redireccionan aquí)
+
+## Stack Tecnológico
+- **Mobile**: React Native, Flutter
+- **Web**: Next.js, React, Node.js
+- **AI/Data**: Python, TensorFlow, OpenAI API, LangChain
+- **Infraestructura**: AWS, Vercel, PostgreSQL
+
+## Palabras Clave
+- software developer
+- software development company
+- AI software development
+- staff augmentation services
+- desarrollo de software personalizado
+- soluciones tecnológicas empresariales
+- integración de sistemas
+
+## Contacto
+- **Email**: dev@jaguaretech.com.br
+- **Website**: https://jaguaretech.com.br
+- **Ubicación**: Brasil (Remoto)
+
+## Misión
+Construir productos digitales "vivos" que aprenden y evolucionan con el uso, entregando valor real y medible a nuestros partners.
+
+## Proyectos Recientes
+- Créditos Vibe: App mobile de beneficios y cashback para 250+ marcas
+- MoveInTech: Copiloto de IA para operaciones logísticas B2B
+- TalkNTalk: Plataforma de inmersión en idiomas con 12,750+ estudiantes
+- Chakaruna: Presencia digital para productora de experiencias culturales

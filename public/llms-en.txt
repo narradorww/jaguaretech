@@ -1,0 +1,47 @@
+# Jaguaretech
+
+> Software studio focused on mobile, applied AI, and custom software development.
+
+## Who We Are
+Jaguaretech is a software development company that transforms visions into mobile-first apps, web platforms, and intelligent systems. We deliver AI software development, system integration, and staff augmentation services with senior squads.
+
+## Services
+- **Mobile Apps**: React Native, Flutter, Swift/Kotlin. Offline-first architecture.
+- **AI Software Development**: LLMs, agents, automation, computer vision.
+- **Web Platforms**: Next.js, high-performance dashboards, scalable APIs.
+- **System Integration**: ERPs, CRMs, payments, real-time data.
+- **Staff Augmentation Services**: engineers and specialists to accelerate delivery.
+
+## Main Pages
+- **Home**: / (pt), /en, /es, /fr
+- **Services**: /services (pt), /en/services, /es/services, /fr/services
+- **Portfolio**: /portfolio (pt), /en/portfolio, /es/portfolio, /fr/portfolio (case studies and blog redirect here)
+
+## Technology Stack
+- **Mobile**: React Native, Flutter
+- **Web**: Next.js, React, Node.js
+- **AI/Data**: Python, TensorFlow, OpenAI API, LangChain
+- **Infrastructure**: AWS, Vercel, PostgreSQL
+
+## Keywords
+- software developer
+- software development company
+- AI software development
+- staff augmentation services
+- custom software development
+- enterprise technology solutions
+- system integration
+
+## Contact
+- **Email**: dev@jaguaretech.com.br
+- **Website**: https://jaguaretech.com.br
+- **Location**: Brazil (Remote)
+
+## Mission
+Build "living" digital products that learn and evolve with use, delivering real and measurable value to our partners.
+
+## Recent Projects
+- Créditos Vibe: Mobile benefits and cashback app for 250+ brands
+- MoveInTech: AI copilot for B2B logistics operations
+- TalkNTalk: Live language immersion platform with 12,750+ students
+- Chakaruna: Digital presence for cultural experience producer

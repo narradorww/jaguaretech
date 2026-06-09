@@ -3,6 +3,10 @@ import LanguageSwitcher from "../../../components/LanguageSwitcher";
 import { setRequestLocale, getTranslations } from "next-intl/server";
 import { Link } from "../../../../src/i18n/routing";
 import { buildMetadata } from "../../../../src/lib/seo";
+import {
+  getPortfolioProjectSchema,
+  getPortfolioBreadcrumbSchema,
+} from "../../../../src/lib/schemas";
 import { getProjectBySlug, getAllSlugs } from "../../../../src/lib/portfolio";
 import styles from "../../../page.module.css";
 
@@ -44,32 +48,25 @@ export default async function ProjectPage({ params }) {
   const home = await getTranslations("Home");
   const t = await getTranslations({ locale, namespace: "Portfolio" });
 
-  const jsonLd = {
-    "@context": "https://schema.org",
-    "@type": "CreativeWork",
-    name: project.title[locale] || project.title.en,
-    description: project.description[locale] || project.description.en,
-    creator: {
-      "@type": "Organization",
-      name: "Jaguaretech",
-      url: "https://jaguaretech.com.br",
-    },
-    keywords: project.stack.join(", "),
-    about: {
-      "@type": "Thing",
-      name: project.sector[locale] || project.sector.en,
-    },
-  };
+  const projectTitle = project.title[locale] || project.title.en;
+
+  const jsonLdArray = [
+    getPortfolioProjectSchema(project, locale),
+    getPortfolioBreadcrumbSchema(projectTitle, slug),
+  ];
 
   return (
     <div className={styles.page}>
       <a className={styles.skipLink} href="#main-content">
         {home("a11y.skipToContent")}
       </a>
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-      />
+      {jsonLdArray.map((schema, idx) => (
+        <script
+          key={idx}
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+        />
+      ))}
       <header className={styles.header}>
         <Link className={styles.brand} href="/">
           <span className={styles.brandMark} aria-hidden="true" />

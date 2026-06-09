@@ -3,6 +3,7 @@ import { setRequestLocale, getTranslations } from "next-intl/server";
 import { Link } from "../../../src/i18n/routing";
 import { buildMetadata } from "../../../src/lib/seo";
 import { portfolioProjects } from "../../../src/lib/portfolio";
+import { portfolioBreadcrumbSchema } from "../../../src/lib/schemas";
 import styles from "../../page.module.css";
 
 export async function generateMetadata({ params }) {
@@ -30,11 +31,34 @@ export default async function Portfolio({ params }) {
   const home = await getTranslations("Home");
   const t = await getTranslations({ locale, namespace: "Portfolio" });
 
+  const breadcrumbSchema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      {
+        "@type": "ListItem",
+        position: 1,
+        name: "Home",
+        item: "https://jaguaretech.com.br",
+      },
+      {
+        "@type": "ListItem",
+        position: 2,
+        name: t("eyebrow"),
+        item: "https://jaguaretech.com.br/portfolio",
+      },
+    ],
+  };
+
   return (
     <div className={styles.page}>
       <a className={styles.skipLink} href="#main-content">
         {home("a11y.skipToContent")}
       </a>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+      />
       <header className={styles.header}>
         <Link className={styles.brand} href="/">
           <span className={styles.brandMark} aria-hidden="true" />

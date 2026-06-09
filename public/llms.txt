@@ -1,26 +1,41 @@
 # Jaguaretech
 
-> Estúdio de software focado em mobile e inteligência artificial.
+> Estudio de software focado em mobile, IA aplicada e desenvolvimento de software personalizado.
 
 ## Quem somos
-A Jaguaretech é um estúdio de desenvolvimento que transforma visões em aplicativos mobile-first e sistemas de IA que aceleram negócios. Unimos engenharia sênior e design futurista.
+A Jaguaretech e uma software development company que transforma visoes em apps mobile-first, plataformas web e sistemas inteligentes. Entregamos AI software development, integracao de sistemas e staff augmentation services com squads senior.
 
-## Serviços
+## Servicos
 - **Apps Mobile**: React Native, Flutter, Swift/Kotlin. Arquitetura offline-first.
-- **Sistemas de IA**: LLMs customizadas, agentes autônomos, visão computacional.
-- **Plataformas Web**: Next.js 14+, Dashboards de alta performance, APIs escaláveis.
-- **Discovery & Design**: Mapeamento de jornada, prototipagem e arquitetura de software.
+- **AI Software Development**: LLMs, agentes, automacao, visao computacional.
+- **Plataformas Web**: Next.js, dashboards de alta performance, APIs escalaveis.
+- **Integracao de Sistemas**: ERPs, CRMs, pagamentos, dados em tempo real.
+- **Staff Augmentation Services**: engenheiros e especialistas para acelerar entregas.
 
-## Stack Tecnológica
+## Paginas principais
+- **Home**: / (pt), /en, /es, /fr
+- **Servicos**: /services (pt), /en/services, /es/services, /fr/services
+- **Portfolio**: /portfolio (pt), /en/portfolio, /es/portfolio, /fr/portfolio (caso estudos e blog redirecionam aqui)
+
+## Stack Tecnologica
 - **Mobile**: React Native, Flutter
 - **Web**: Next.js, React, Node.js
 - **AI/Data**: Python, TensorFlow, OpenAI API, LangChain
 - **Infra**: AWS, Vercel, PostgreSQL
 
-## Contato
-- **Email**: contato@jaguaretch.com.br
-- **Site**: https://jaguaretech.com.br
-- **Localização**: Brasil (Remoto)
+## Palavras-chave
+- software developer
+- software development company
+- AI software development
+- staff augmentation services
+- desenvolvimento de software personalizado
+- solucoes tecnologicas empresariais
+- integracao de sistemas
 
-## Missão
-Construir produtos digitais "vivos" que aprendem e evoluem com o uso, entregando valor real e mensurável para nossos parceiros.
+## Contato
+- **Email**: dev@jaguaretech.com.br
+- **Site**: https://jaguaretech.com.br
+- **Localizacao**: Brasil (Remoto)
+
+## Missao
+Construir produtos digitais "vivos" que aprendem e evoluem com o uso, entregando valor real e mensuravel para nossos parceiros.
