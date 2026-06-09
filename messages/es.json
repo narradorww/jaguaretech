@@ -73,6 +73,24 @@
           "GEO: optimizacion para LLMs y AI search",
           "Sitemap, hreflang y rendimiento Core Web Vitals"
         ]
+      },
+      "marketing": {
+        "title": "Marketing Digital",
+        "text": "Estrategia y ejecucion para atraer, involucrar y convertir.",
+        "list": [
+          "Trafico pago, SEO y embudos de conversion",
+          "Automatizacion de marketing y CRM",
+          "Analytics, atribucion y optimizacion continua"
+        ]
+      },
+      "product": {
+        "title": "Producto Digital",
+        "text": "De la idea al roadmap con metodo, datos y vision de negocio.",
+        "list": [
+          "Discovery, mapeo de jornada y prototipado",
+          "Roadmap tecnico alineado a resultados de negocio",
+          "Design system, UX y validacion rapida"
+        ]
       }
     },
     "process": {

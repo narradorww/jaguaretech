@@ -205,6 +205,24 @@ export default async function Home({ params }) {
                 <li>{t("services.seo.list.2")}</li>
               </ul>
             </article>
+            <article className={styles.card}>
+              <h3 className={styles.cardTitle}>{t("services.marketing.title")}</h3>
+              <p className={styles.cardText}>{t("services.marketing.text")}</p>
+              <ul className={styles.cardList}>
+                <li>{t("services.marketing.list.0")}</li>
+                <li>{t("services.marketing.list.1")}</li>
+                <li>{t("services.marketing.list.2")}</li>
+              </ul>
+            </article>
+            <article className={styles.card}>
+              <h3 className={styles.cardTitle}>{t("services.product.title")}</h3>
+              <p className={styles.cardText}>{t("services.product.text")}</p>
+              <ul className={styles.cardList}>
+                <li>{t("services.product.list.0")}</li>
+                <li>{t("services.product.list.1")}</li>
+                <li>{t("services.product.list.2")}</li>
+              </ul>
+            </article>
           </div>
         </section>
 
