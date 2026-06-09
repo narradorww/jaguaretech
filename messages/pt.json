@@ -64,6 +64,15 @@
           "APIs, integracoes e automacao de processos",
           "Observabilidade e deploy continuo"
         ]
+      },
+      "seo": {
+        "title": "SEO & GEO",
+        "text": "Visibilidade organica para humanos e para modelos de linguagem.",
+        "list": [
+          "SEO tecnico, metadata e schema markup",
+          "GEO: otimizacao para LLMs e AI search",
+          "Sitemap, hreflang e performance Core Web Vitals"
+        ]
       }
     },
     "process": {

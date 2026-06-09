@@ -196,6 +196,15 @@ export default async function Home({ params }) {
                 <li>{t("services.web.list.2")}</li>
               </ul>
             </article>
+            <article className={styles.card}>
+              <h3 className={styles.cardTitle}>{t("services.seo.title")}</h3>
+              <p className={styles.cardText}>{t("services.seo.text")}</p>
+              <ul className={styles.cardList}>
+                <li>{t("services.seo.list.0")}</li>
+                <li>{t("services.seo.list.1")}</li>
+                <li>{t("services.seo.list.2")}</li>
+              </ul>
+            </article>
           </div>
         </section>
 
