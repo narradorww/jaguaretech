@@ -114,7 +114,20 @@
       "title": "Pret a creer quelque chose d'inoubliable?",
       "text": "Partagez votre idee et construisons un chemin rapide pour valider, construire et scaler.",
       "cta": "dev@jaguaretech.com.br",
-      "backToTop": "Retour en haut"
+      "backToTop": "Retour en haut",
+      "form": {
+        "name": "Nom",
+        "namePlaceholder": "Votre nom",
+        "email": "Email",
+        "emailPlaceholder": "vous@email.com",
+        "message": "Message",
+        "messagePlaceholder": "Parlez-nous un peu de votre projet...",
+        "submit": "Envoyer le message",
+        "sending": "Envoi en cours...",
+        "successTitle": "Message envoyé !",
+        "successText": "Nous avons reçu votre message et vous répondrons bientôt.",
+        "errorText": "Quelque chose s'est mal passé. Réessayez ou écrivez directement à dev@jaguaretech.com.br"
+      }
     },
     "footer": {
       "tagline": "Developpement mobile et intelligence artificielle.",

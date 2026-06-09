@@ -6,13 +6,15 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "seo:audits": "BASE_URL=http://localhost:3000 ./scripts/seo/run-audits.sh"
   },
   "dependencies": {
     "next": "16.1.4",
     "next-intl": "^4.7.0",
     "react": "19.2.3",
-    "react-dom": "19.2.3"
+    "react-dom": "19.2.3",
+    "resend": "^6.12.4"
   },
   "devDependencies": {
     "@types/node": "25.0.10",

@@ -1,4 +1,5 @@
 import LanguageSwitcher from "../components/LanguageSwitcher";
+import ContactForm from "../components/ContactForm";
 import { setRequestLocale, getTranslations } from "next-intl/server";
 import { Link } from "../../src/i18n/routing";
 import { buildMetadata } from "../../src/lib/seo";
@@ -312,17 +313,7 @@ export default async function Home({ params }) {
             <h2 className={styles.ctaTitle}>{t("contact.title")}</h2>
             <p className={styles.ctaText}>{t("contact.text")}</p>
           </div>
-          <div className={styles.ctaActions}>
-            <a
-              className={styles.primaryButton}
-              href={`mailto:${t("contact.cta")}`}
-            >
-              {t("contact.cta")}
-            </a>
-            <a className={styles.secondaryButton} href="#home">
-              {t("contact.backToTop")}
-            </a>
-          </div>
+          <ContactForm t={t} locale={locale} />
         </section>
       </main>
 
