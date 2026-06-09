@@ -1,6 +1,7 @@
 import { NextIntlClientProvider } from "next-intl";
 import { getMessages, setRequestLocale } from "next-intl/server";
 import { Oxanium, Space_Grotesk } from "next/font/google";
+import Script from "next/script";
 import "../globals.css";
 
 const oxanium = Oxanium({
@@ -18,40 +19,12 @@ const spaceGrotesk = Space_Grotesk({
 });
 
 export const metadata = {
-  metadataBase: new URL("https://jaguaretech.com.br"),
-  title: "Jaguaretech | Mobile e IA para produtos vivos",
-  description:
-    "Estudio de desenvolvimento focado em mobile e inteligencia artificial. Criamos apps e sistemas inteligentes sob medida.",
-  openGraph: {
-    title: "Jaguaretech | Mobile e IA para produtos vivos",
-    description: "Estudio de desenvolvimento focado em mobile e inteligencia artificial. Criamos apps e sistemas inteligentes sob medida.",
-    url: "https://jaguaretech.com.br",
-    siteName: "Jaguaretech",
-    images: [
-      {
-        url: "/hero-jaguaretch.png",
-        width: 1200,
-        height: 630,
-        alt: "Jaguaretech Hero Image",
-      },
+  icons: {
+    icon: [
+      { url: "/favicon.svg", type: "image/svg+xml" },
+      { url: "/favicon.ico", sizes: "any" },
     ],
-    locale: "pt_BR",
-    type: "website",
-  },
-  twitter: {
-    card: "summary_large_image",
-    title: "Jaguaretech | Mobile e IA para produtos vivos",
-    description: "Estudio de desenvolvimento focado em mobile e inteligencia artificial. Criamos apps e sistemas inteligentes sob medida.",
-    images: ["/hero-jaguaretch.png"],
-  },
-  alternates: {
-    canonical: "https://jaguaretech.com.br",
-    languages: {
-      'pt': '/pt',
-      'en': '/en',
-      'es': '/es',
-      'fr': '/fr',
-    },
+    apple: "/apple-touch-icon.png",
   },
 };
 
@@ -59,10 +32,25 @@ export default async function RootLayout({ children, params }) {
   const { locale } = await params;
   setRequestLocale(locale);
   const messages = await getMessages();
+  const gaId = process.env.NEXT_PUBLIC_GA_ID;
 
   return (
     <html lang={locale}>
       <body className={`${spaceGrotesk.variable} ${oxanium.variable}`}>
+        {gaId ? (
+          <>
+            <Script
+              src={`https://www.googletagmanager.com/gtag/js?id=${gaId}`}
+              strategy="afterInteractive"
+            />
+            <Script id="ga-init" strategy="afterInteractive">
+              {`window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', '${gaId}', { anonymize_ip: true });`}
+            </Script>
+          </>
+        ) : null}
         <NextIntlClientProvider messages={messages}>
           {children}
         </NextIntlClientProvider>
