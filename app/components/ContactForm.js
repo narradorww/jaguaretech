@@ -1,9 +1,12 @@
 "use client";
 
 import { useState } from "react";
+import { useTranslations, useLocale } from "next-intl";
 import styles from "./ContactForm.module.css";
 
-export default function ContactForm({ t, locale }) {
+export default function ContactForm() {
+  const t = useTranslations("Home");
+  const locale = useLocale();
   const [form, setForm] = useState({ name: "", email: "", message: "" });
   const [status, setStatus] = useState("idle"); // idle | loading | success | error
 

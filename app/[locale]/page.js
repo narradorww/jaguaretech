@@ -313,7 +313,7 @@ export default async function Home({ params }) {
             <h2 className={styles.ctaTitle}>{t("contact.title")}</h2>
             <p className={styles.ctaText}>{t("contact.text")}</p>
           </div>
-          <ContactForm t={t} locale={locale} />
+          <ContactForm />
         </section>
       </main>
 
