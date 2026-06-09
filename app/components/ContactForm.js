@@ -40,8 +40,8 @@ export default function ContactForm() {
     return (
       <div className={styles.success}>
         <p className={styles.successIcon}>✓</p>
-        <p className={styles.successTitle}>{t("form.successTitle")}</p>
-        <p className={styles.successText}>{t("form.successText")}</p>
+        <p className={styles.successTitle}>{t("contact.form.successTitle")}</p>
+        <p className={styles.successText}>{t("contact.form.successText")}</p>
       </div>
     );
   }
@@ -51,7 +51,7 @@ export default function ContactForm() {
       <div className={styles.row}>
         <div className={styles.field}>
           <label className={styles.label} htmlFor="name">
-            {t("form.name")}
+            {t("contact.form.name")}
           </label>
           <input
             className={styles.input}
@@ -60,14 +60,14 @@ export default function ContactForm() {
             type="text"
             value={form.name}
             onChange={handleChange}
-            placeholder={t("form.namePlaceholder")}
+            placeholder={t("contact.form.namePlaceholder")}
             required
             disabled={status === "loading"}
           />
         </div>
         <div className={styles.field}>
           <label className={styles.label} htmlFor="email">
-            {t("form.email")}
+            {t("contact.form.email")}
           </label>
           <input
             className={styles.input}
@@ -76,7 +76,7 @@ export default function ContactForm() {
             type="email"
             value={form.email}
             onChange={handleChange}
-            placeholder={t("form.emailPlaceholder")}
+            placeholder={t("contact.form.emailPlaceholder")}
             required
             disabled={status === "loading"}
           />
@@ -84,7 +84,7 @@ export default function ContactForm() {
       </div>
       <div className={styles.field}>
         <label className={styles.label} htmlFor="message">
-          {t("form.message")}
+          {t("contact.form.message")}
         </label>
         <textarea
           className={styles.textarea}
@@ -92,21 +92,21 @@ export default function ContactForm() {
           name="message"
           value={form.message}
           onChange={handleChange}
-          placeholder={t("form.messagePlaceholder")}
+          placeholder={t("contact.form.messagePlaceholder")}
           rows={5}
           required
           disabled={status === "loading"}
         />
       </div>
       {status === "error" && (
-        <p className={styles.errorText}>{t("form.errorText")}</p>
+        <p className={styles.errorText}>{t("contact.form.errorText")}</p>
       )}
       <button
         className={styles.submit}
         type="submit"
         disabled={status === "loading"}
       >
-        {status === "loading" ? t("form.sending") : t("form.submit")}
+        {status === "loading" ? t("contact.form.sending") : t("contact.form.submit")}
       </button>
     </form>
   );
