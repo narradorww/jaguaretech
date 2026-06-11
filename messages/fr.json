@@ -16,32 +16,32 @@
       "eyebrow": "Studio logiciel",
       "title": "Mobile et Intelligence Artificielle pour des produits vivants.",
       "badge": "Jaguaretech Lab",
-      "lede": "Jaguaretech est une software development company qui transforme les visions en apps et plateformes intelligentes. Nous livrons AI software development, des experiences mobile-first et des staff augmentation services pour accelerer les entreprises.",
-      "primaryCta": "Demarrer le projet",
+      "lede": "Jaguaretech est une software development company qui transforme les visions en apps et plateformes intelligentes. Nous livrons AI software development, des expériences mobile-first et des staff augmentation services pour accélérer les entreprises.",
+      "primaryCta": "Démarrer le projet",
       "secondaryCta": "Voir l'expertise",
       "meta": {
         "mobileFirst": {
           "title": "Mobile first",
-          "text": "Apps natives et cross-platform avec UX precise."
+          "text": "Apps natives et cross-platform avec UX précise."
         },
         "aiApplied": {
-          "title": "IA appliquee",
-          "text": "Modeles generatifs, vision par ordinateur et automatisation."
+          "title": "IA appliquée",
+          "text": "Modèles génératifs, vision par ordinateur et automatisation."
         },
         "endToEnd": {
           "title": "Livraison end-to-end",
-          "text": "Du discovery au deploy continu avec une equipe senior."
+          "text": "Du discovery au deploy continu avec une équipe senior."
         }
       }
     },
     "services": {
       "cardCta": "Parler de ce service",
       "eyebrow": "Expertise",
-      "title": "Solutions digitales avec une identite futuriste.",
-      "text": "Nous sommes specialises en mobile et intelligence artificielle. Nous combinons engineering, design et data pour du developpement logiciel sur mesure.",
+      "title": "Solutions digitales avec une identité futuriste.",
+      "text": "Nous sommes spécialisés en mobile et intelligence artificielle. Nous combinons engineering, design et data pour du développement logiciel sur mesure.",
       "mobile": {
         "title": "Apps Mobile",
-        "text": "Experiences fluides pour iOS, Android et cross-platform.",
+        "text": "Expériences fluides pour iOS, Android et cross-platform.",
         "list": [
           "React Native, Flutter et Swift/Kotlin",
           "Architecture offline-first et push intelligent",
@@ -49,8 +49,8 @@
         ]
       },
       "ai": {
-        "title": "Systemes IA",
-        "text": "Intelligence appliquee pour automatiser et predire les resultats.",
+        "title": "Systèmes IA",
+        "text": "Intelligence appliquée pour automatiser et prédire les résultats.",
         "list": [
           "LLMs, agents et copilotes business",
           "Vision par ordinateur et recommandation",
@@ -59,16 +59,16 @@
       },
       "web": {
         "title": "Plateformes Web",
-        "text": "Front-ends performants et APIs securisees pour scaler.",
+        "text": "Front-ends performants et APIs sécurisées pour scaler.",
         "list": [
           "Next.js, dashboards et portails data",
-          "APIs, integrations et automatisation de processus",
-          "Observabilite et deploy continu"
+          "APIs, intégrations et automatisation de processus",
+          "Observabilité et deploy continu"
         ]
       },
       "seo": {
         "title": "SEO & GEO",
-        "text": "Visibilite organique pour les humains et les modeles de langage.",
+        "text": "Visibilité organique pour les humains et les modèles de langage.",
         "list": [
           "SEO technique, metadata et schema markup",
           "GEO: optimisation pour LLMs et AI search",
@@ -77,27 +77,27 @@
       },
       "marketing": {
         "title": "Marketing Digital",
-        "text": "Strategie et execution pour attirer, engager et convertir.",
+        "text": "Stratégie et exécution pour attirer, engager et convertir.",
         "list": [
-          "Trafic paye, SEO et entonnoirs de conversion",
+          "Trafic payé, SEO et entonnoirs de conversion",
           "Automatisation marketing et CRM",
           "Analytics, attribution et optimisation continue"
         ]
       },
       "product": {
         "title": "Produit Digital",
-        "text": "De l'idee au roadmap avec methode, donnees et vision business.",
+        "text": "De l'idée au roadmap avec méthode, données et vision business.",
         "list": [
           "Discovery, cartographie du parcours et prototypage",
-          "Roadmap technique aligne aux resultats business",
+          "Roadmap technique aligné aux résultats business",
           "Design system, UX et validation rapide"
         ]
       }
     },
     "process": {
-      "eyebrow": "Methode",
+      "eyebrow": "Méthode",
       "title": "Un processus clair pour les projets ambitieux.",
-      "text": "Nous travaillons en cycles courts avec une visibilite totale. De la strategie au produit final, vous suivez chaque livraison.",
+      "text": "Nous travaillons en cycles courts avec une visibilité totale. De la stratégie au produit final, vous suivez chaque livraison.",
       "steps": {
         "discovery": {
           "title": "Discovery approfondi",
@@ -105,35 +105,35 @@
         },
         "prototype": {
           "title": "Prototype et architecture",
-          "text": "Nous definissons les flux, la stack et les modeles IA avec securite."
+          "text": "Nous définissons les flux, la stack et les modèles IA avec sécurité."
         },
         "build": {
-          "title": "Build accelere",
+          "title": "Build accéléré",
           "text": "Sprints avec livraisons hebdo et feedback constant."
         },
         "scale": {
-          "title": "Scale et evolution",
-          "text": "Monitoring, evolutions et IA entrainee avec des donnees reelles."
+          "title": "Scale et évolution",
+          "text": "Monitoring, évolutions et IA entraînée avec des données réelles."
         }
       }
     },
     "stack": {
       "eyebrow": "Stack",
-      "title": "Technologie moderne pour des resultats consistants.",
-      "text": "Nous selectionnons les meilleurs outils pour chaque defi, en nous concentrant sur la fiabilite et la vitesse de livraison."
+      "title": "Technologie moderne pour des résultats consistants.",
+      "text": "Nous sélectionnons les meilleurs outils pour chaque défi, en nous concentrant sur la fiabilité et la vitesse de livraison."
     },
     "insights": {
       "eyebrow": "Contenu",
-      "title": "Insights pour leaders et decideurs.",
-      "text": "Explorez des articles longs sur le developpement logiciel sur mesure, l'integration de systemes et l'IA appliquee.",
+      "title": "Insights pour leaders et décideurs.",
+      "text": "Explorez des articles longs sur le développement logiciel sur mesure, l'intégration de systèmes et l'IA appliquée.",
       "portfolio": {
         "title": "Portfolio de projets",
-        "text": "Projets reels qui montrent l'impact d'une software development company.",
-        "link": "Voir les projets et resultats"
+        "text": "Projets réels qui montrent l'impact d'une software development company.",
+        "link": "Voir les projets et résultats"
       },
       "services": {
         "title": "Services",
-        "text": "Developpement logiciel sur mesure, integration de systemes et staff augmentation services.",
+        "text": "Développement logiciel sur mesure, intégration de systèmes et staff augmentation services.",
         "link": "Explorer les services logiciels"
       }
     },
@@ -263,8 +263,8 @@
     },
     "contact": {
       "eyebrow": "Contact",
-      "title": "Pret a creer quelque chose d'inoubliable?",
-      "text": "Partagez votre idee et construisons un chemin rapide pour valider, construire et scaler.",
+      "title": "Prêt à créer quelque chose d'inoubliable ?",
+      "text": "Partagez votre idée et construisons un chemin rapide pour valider, construire et scaler.",
       "cta": "dev@jaguaretech.com.br",
       "backToTop": "Retour en haut",
       "form": {
@@ -282,49 +282,49 @@
       }
     },
     "footer": {
-      "tagline": "Developpement mobile et intelligence artificielle.",
-      "location": "Bresil - remote",
+      "tagline": "Développement mobile et intelligence artificielle.",
+      "location": "Brésil - remote",
       "servicesLink": "Services logiciels",
       "portfolioLink": "Portfolio"
     }
   },
   "Meta": {
     "home": {
-      "title": "Meilleure societe developpement logiciel sur mesure et IA | Jaguaretech",
-      "description": "Conseil specialise en developpement logiciel personnalise, applications mobile et AI software development. Comment embaucher developers senior et accelerer livraison produit.",
-      "keywords": "meilleure societe developpement logiciel, comment embaucher developers, conseil logiciel entreprise, developpement app mobile, ai software development, staff augmentation, comment scaler equipe tech"
+      "title": "Meilleure société développement logiciel sur mesure et IA | Jaguaretech",
+      "description": "Conseil spécialisé en développement logiciel personnalisé, applications mobile et AI software development. Comment embaucher developers senior et accélérer livraison produit.",
+      "keywords": "meilleure société développement logiciel, comment embaucher developers, conseil logiciel entreprise, développement app mobile, ai software development, staff augmentation, comment scaler équipe tech"
     },
     "services": {
-      "title": "Services developpement logiciel | Apps mobile, IA, Web | Jaguaretech",
-      "description": "Services specialises: developpement apps mobile (React Native, Flutter), systemes IA, plateformes Next.js et conseil pour scaler equipes d'ingenierie.",
-      "keywords": "services developpement logiciel, comment faire app mobile, developpement react native, conseil integration systemes, comment embaucher equipe developpement, comment scaler team tech"
+      "title": "Services développement logiciel | Apps mobile, IA, Web | Jaguaretech",
+      "description": "Services spécialisés : développement apps mobile (React Native, Flutter), systèmes IA, plateformes Next.js et conseil pour scaler équipes d'ingénierie.",
+      "keywords": "services développement logiciel, comment faire app mobile, développement react native, conseil intégration systèmes, comment embaucher équipe développement, comment scaler team tech"
     },
     "caseStudies": {
-      "title": "Etudes de cas | Resultats reels logiciel et IA | Jaguaretech",
-      "description": "Voyez comment nous avons developpe des apps mobile avec 250k+ utilisateurs, copilote IA pour logistique B2B et plateformes educatives haute performance.",
-      "keywords": "case studies developpement logiciel, projets mobile succes, implementation ia entreprises, resultats tech startups, comment scaler application, performance apps mobile"
+      "title": "Études de cas | Résultats réels logiciel et IA | Jaguaretech",
+      "description": "Voyez comment nous avons développé des apps mobile avec 250k+ utilisateurs, copilote IA pour logistique B2B et plateformes éducatives haute performance.",
+      "keywords": "case studies développement logiciel, projets mobile succès, implémentation ia entreprises, résultats tech startups, comment scaler application, performance apps mobile"
     },
     "portfolio": {
-      "title": "Portfolio | Projets reals logiciel, IA et mobile | Jaguaretech",
-      "description": "Portfolio avec 4+ projets en production: apps mobile (250+ marques), copilote IA pour logistique, plateforme EdTech (12k+ etudiants) et experiences culturelles digitales.",
-      "keywords": "portfolio projets logiciel, apps mobile production, systemes ia implementes, plateformes web scalees, cas developpement mobile, projets ia en fonction"
+      "title": "Portfolio | Projets réels logiciel, IA et mobile | Jaguaretech",
+      "description": "Portfolio avec 4+ projets en production: apps mobile (250+ marques), copilote IA pour logistique, plateforme EdTech (12k+ étudiants) et expériences culturelles digitales.",
+      "keywords": "portfolio projets logiciel, apps mobile production, systèmes ia implémentés, plateformes web scalées, cas développement mobile, projets ia en fonction"
     }
   },
   "Portfolio": {
     "eyebrow": "Portfolio",
-    "heading": "Projets reels, resultats mesurables.",
-    "lead": "Chaque projet represente un vrai defi resolu avec engineering, design et intelligence artificielle. Nous explorons le mobile-first, l'AI software development et l'integration de systemes pour des equipes qui avaient besoin de vitesse et de confiance.",
+    "heading": "Projets réels, résultats mesurables.",
+    "lead": "Chaque projet représente un vrai défi résolu avec engineering, design et intelligence artificielle. Nous explorons le mobile-first, l'AI software development et l'intégration de systèmes pour des équipes qui avaient besoin de vitesse et de confiance.",
     "pills": {
       "mobile": "Mobile-first",
-      "ai": "IA appliquee",
-      "integration": "Integration de systemes"
+      "ai": "IA appliquée",
+      "integration": "Intégration de systèmes"
     },
     "projectsListLabel": "Liste des projets",
     "readMore": "Voir le projet complet",
-    "challengeLabel": "Le defi",
+    "challengeLabel": "Le défi",
     "solutionLabel": "La solution",
-    "resultsLabel": "Resultats",
-    "stackLabel": "Stack utilisee",
+    "resultsLabel": "Résultats",
+    "stackLabel": "Stack utilisée",
     "backToPortfolio": "Retour au portfolio",
     "seeServices": "Voir les services"
   }
