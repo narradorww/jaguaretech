@@ -20,6 +20,15 @@ You can start editing the page by modifying `app/page.js`. The page auto-updates
 
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
+## Contact route tests
+
+With dependencies installed, run these offline tests for the contact form and service inquiry payloads. They do not need a Resend API key or send any email.
+
+```bash
+npx --no-install tsc app/api/contact/route.ts --module node16 --target es2022 --skipLibCheck --outDir .next/contact-route-test
+node --test tests/contact-route.test.cjs
+```
+
 ## Learn More
 
 To learn more about Next.js, take a look at the following resources:

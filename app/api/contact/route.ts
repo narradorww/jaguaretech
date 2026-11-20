@@ -1,7 +1,9 @@
 import { Resend } from "resend";
 import { NextRequest, NextResponse } from "next/server";
 
-const resend = new Resend(process.env.RESEND_API_KEY);
+function sendFailure(status: number) {
+  return NextResponse.json({ error: "Failed to send message" }, { status });
+}
 
 export async function POST(req: NextRequest) {
   try {
@@ -22,7 +24,14 @@ export async function POST(req: NextRequest) {
       );
     }
 
-    await resend.emails.send({
+    const apiKey = process.env.RESEND_API_KEY;
+    if (!apiKey) {
+      console.error("Contact form email provider is not configured");
+      return sendFailure(500);
+    }
+
+    const resend = new Resend(apiKey);
+    const { data, error } = await resend.emails.send({
       from: "Jaguaretech <dev@jaguaretech.com.br>",
       to: "dev@jaguaretech.com.br",
       replyTo: email,
@@ -53,12 +62,21 @@ export async function POST(req: NextRequest) {
       `,
     });
 
+    if (error) {
+      const providerStatus =
+        typeof error.statusCode === "number" ? error.statusCode : null;
+      console.error("Contact form email provider rejected send", providerStatus);
+      return sendFailure(502);
+    }
+
+    if (typeof data?.id !== "string" || !data.id.trim()) {
+      console.error("Contact form email provider returned no message ID");
+      return sendFailure(502);
+    }
+
     return NextResponse.json({ success: true }, { status: 200 });
-  } catch (error) {
-    console.error("Contact form error:", error);
-    return NextResponse.json(
-      { error: "Failed to send message" },
-      { status: 500 }
-    );
+  } catch {
+    console.error("Contact form failed unexpectedly");
+    return sendFailure(500);
   }
 }
